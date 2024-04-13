@@ -93,7 +93,7 @@ body {
     height: 100px; /* Tamaño cuadrado */
     text-align: center; /* Alineación del texto dentro de la caja */
     vertical-align: middle; /* Alineación vertical del contenido */
-    line-height: normal; /* Espaciado de línea normal para acomodar mejor el precio y el descuento */
+    line-height: normal; /* Espacia-do de línea normal para acomodar mejor el precio y el descuento */
 }
 
 .price-info {
