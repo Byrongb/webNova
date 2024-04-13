@@ -1,0 +1,113 @@
+body {
+    overflow-x: hidden;
+}
+
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: relative;
+}
+
+.inicio-top, .inicio-bottom {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to bottom, #FFFFFF, #304A6E, #304A6E);
+}
+
+.inicio-bottom {
+    background: linear-gradient(to bottom, #FAFAFA, #304A6E, #304A6E);
+    height: 300px;
+    position: relative;
+}
+
+.imagen-central {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 65%;
+    z-index: 10;
+}
+
+.text-container {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    text-align: center;
+    z-index: 20;
+}
+
+.line-text {
+    margin: 0;
+    padding: 5px;
+    display: block;
+}
+
+.line1 {
+    font-size: 1.3em;
+    color: white;
+}
+
+.line2 {
+    font-size: 2.5em;
+    color: white;
+
+}
+
+.line3 {
+    font-size: 1.3em;
+    color: white;
+}
+
+
+.discount-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8%;
+    color: white;
+
+}
+
+.line2, .line3 {
+    margin-right: 30px; /* Espacio antes del precio y ajuste de la línea 3 */
+}
+
+.line3 {
+    text-align: right; /* Alinea la línea 3 más a la izquierda */
+    width: calc(100% - 41%); /* Ajuste para mover el texto hacia la izquierda */
+    margin-top: -10%;
+}
+
+.discount-text{
+    font-size: 2.3em;
+    margin-right: 5%;
+
+}
+
+.price-box {
+    display: inline-block;
+    padding: 0px;
+    width: 100px; /* Tamaño cuadrado */
+    height: 100px; /* Tamaño cuadrado */
+    text-align: center; /* Alineación del texto dentro de la caja */
+    vertical-align: middle; /* Alineación vertical del contenido */
+    line-height: normal; /* Espaciado de línea normal para acomodar mejor el precio y el descuento */
+}
+
+.price-info {
+    font-size: 3.6em;
+    color: #ffffff;
+    margin-top: 22%;
+    margin-left: -10%;
+}
+
+.price-info s {
+    display: block; /* Hace que el precio tachado aparezca en una nueva línea */
+    font-size: 18px; /* Tamaño del precio tachado */
+    color: #ffffff; /* Color del precio tachado */
+    text-decoration: line-through; /* Decoración de tachado */
+    margin-left: 67%;
+    margin-top: -11%;
+}
