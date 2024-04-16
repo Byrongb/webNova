@@ -26,3 +26,29 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.appendChild(inicioContainer);
 });
 //comentario
+
+document.addEventListener('DOMContentLoaded', function() {
+    const inicioContainer = document.querySelector('.inicio-container');
+
+    const callToActionContainer = document.createElement('div');
+    callToActionContainer.className = 'cta-container';
+
+    callToActionContainer.innerHTML = `
+        <div class="cta-text">TE AYUDAMOS A IMPULSAR TU EMPRESA</div>
+        <button class="cta-button">VER PLANES</button>
+    `;
+
+    inicioContainer.appendChild(callToActionContainer);
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const inicioContainer = document.querySelector('.inicio-container');
+
+    for (let i = 1; i <= 3; i++) {
+        const infoContainer = document.createElement('div');
+        infoContainer.className = `contenedorInfo contenedorInfo${i}`;
+        infoContainer.textContent = `Contenido del contenedorInfo${i}`; // Texto de ejemplo
+        inicioContainer.appendChild(infoContainer);
+    }
+});

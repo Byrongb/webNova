@@ -12,18 +12,18 @@ body {
 .inicio-top, .inicio-bottom {
     width: 100%;
     height: 150px;
-    background: linear-gradient(to bottom, #FFFFFF, #304A6E, #304A6E);
+    background: linear-gradient(to bottom, #FFFFFF, #e9f2ff, #b6bfcb);
 }
 
 .inicio-bottom {
-    background: linear-gradient(to bottom, #FAFAFA, #304A6E, #304A6E);
+    background: linear-gradient(to bottom, #b6bfcb, #304A6E, #304A6E);
     height: 300px;
     position: relative;
 }
 
 .imagen-central {
     position: absolute;
-    top: 25%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 65%;
@@ -33,7 +33,7 @@ body {
 .text-container {
     position: absolute;
     width: 100%;
-    top: 80px;
+    top: 28%;
     text-align: center;
     z-index: 20;
 }
@@ -110,4 +110,53 @@ body {
     text-decoration: line-through; /* Decoración de tachado */
     margin-left: 67%;
     margin-top: -11%;
+}
+
+
+/* ... Estilos anteriores ... */
+
+.cta-container {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    top: -5rem;
+    margin: 0% 15% 0% 15%;
+}
+
+.cta-text {
+    font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
+    margin-bottom: 10px;
+    color: #000; /* o el color del texto deseado */
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #304A6E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* o el color de fondo del botón al pasar el mouse */
+}
+
+
+/* ... Estilos anteriores ... */
+
+.contenedorInfo {
+    background-color: #f8f9fa;
+    margin: 0px 20px 0px 20px;
+    height: 200px;
+    padding: 20px;
+    border-bottom: 1px solid #fff; /* Línea blanca sutil entre contenedores */
+}
+
+/* El último contenedor no debe tener una línea debajo */
+.contenedorInfo:last-child {
+    border-bottom: none;
 }
