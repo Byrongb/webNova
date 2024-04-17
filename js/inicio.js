@@ -48,7 +48,23 @@ document.addEventListener('DOMContentLoaded', function() {
     for (let i = 1; i <= 3; i++) {
         const infoContainer = document.createElement('div');
         infoContainer.className = `contenedorInfo contenedorInfo${i}`;
-        infoContainer.textContent = `Contenido del contenedorInfo${i}`; // Texto de ejemplo
+
+        if (i === 1) {
+            infoContainer.innerHTML = `
+                <h2 class="info-title">Convierte clics en clientes</h2>
+                <button class="details-button">Obtener Detalles</button>
+                <div class="more-info-container">
+                    <h3>¿Por qué WebNova?</h3>
+                    <p class="info-text">Maximiza tu presencia en línea y alcanza nuevos mercados con nuestras soluciones web personalizadas.</p>
+                    
+                    <button class="see-plans">VER PORTAFOLIO</button>
+                    <p class="small-text">Consulte nuestros planes para más detalles sobre precios y servicios.</p>
+                </div>
+            `;
+        } else {
+            infoContainer.textContent = `Contenido del contenedorInfo${i}`;
+        }
+        
         inicioContainer.appendChild(infoContainer);
     }
 });

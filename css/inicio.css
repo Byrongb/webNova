@@ -149,14 +149,110 @@ body {
 /* ... Estilos anteriores ... */
 
 .contenedorInfo {
-    background-color: #f8f9fa;
+    background-color: #304A6E;
     margin: 0px 20px 0px 20px;
-    height: 200px;
+    height: auto;
     padding: 20px;
     border-bottom: 1px solid #fff; /* Línea blanca sutil entre contenedores */
+    display: flex; /* Añadido para alinear los elementos internos */
+    flex-direction: column; /* Añadido para orientar los elementos en columna */
+    align-items: center; /* Añadido para centrar los elementos horizontalmente */
+
 }
 
 /* El último contenedor no debe tener una línea debajo */
 .contenedorInfo:last-child {
     border-bottom: none;
 }
+
+
+.info-title {
+    font-size: 2em; /* Ajusta esto según lo que necesites */
+    margin-bottom: 1.5rem; /* Espacio entre el título y el botón */
+    color: #ffffff; /* Ajusta el color del texto según tu diseño */
+    text-align: center;
+}
+
+.details-button {
+    padding: 10px 20px;
+    background-color: #ffffff; /* Color de fondo del botón */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.8);
+
+}
+
+.more-info-container {
+    background-color: #ff0000; /* Color de fondo del contenedor adicional */
+    margin-top: 10px; /* Espacio entre el botón y el contenedor adicional */
+    /* Añade más estilos según necesites */
+}
+
+.more-info-container {
+    background-color: #ffffff; /* Fondo del subcontenedor */
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.info-title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.more-info-container h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.details-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 10px auto; /* Centra los botones */
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.5);
+}
+
+.see-plans {
+    background-color: #304A6E;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 10px auto; /* Centra los botones */
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.1);
+}
+
+.details-button, .see-plans:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+
+.info-text, .small-text {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 1.5rem;
+}
+
+.small-text {
+    font-size: 1em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+
