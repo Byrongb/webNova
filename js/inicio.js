@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     inicioContainer.innerHTML = `
         <div class="inicio-top"></div>
-        <img src="https://bnz07pap001files.storage.live.com/y4mxHqpD0jDSF8wBuhl8tHRxtgEq2euyAyPqXQFAu36H2TLmPQ4fYPUPDCptu3TkJRDDwnpJfsMy3MCShy4WV3QqVjGanGjGixsc3xDJm_aHgpRhIMHVJsXh7QiNWJFqDcxtg4SMwyNYFyDnf6Riw-yIA8r8TZK64eOWpZB86PCbBKEiXASi3fbkLaIFrKPO4z6rkKcdEZkOD2HFupu49kcWy13dy3k3HjYxYttTzKpmII?encodeFailures=1&width=549&height=455" alt="Imagen Descriptiva" class="imagen-central">
+        <img src="https://bnz07pap001files.storage.live.com/y4m63-rR5ubxCDR9j68u1RGXjB1ycEXJCGhAE4GQeMK_vG5v1pkcnsmz6DvrTPkzN1ccmTLyWROS8yXfV7ifIfadd-fF_0SXvwGtL-Tqpkn0t-Gb2XlTHdOXngffREXFGO-1guaw_oFf9uFz1vZISLRxN8iGRgnK_T0zQXLypSsbbTMTEoEVU3mElYhmMI1LvkUbd5KZkcPKDWXJ_hxWz7cp6pRiz8GZn_IPhM2_mZUIUU?encodeFailures=1&width=549&height=455" class="imagen-central">
         <div class="inicio-bottom">
             <div class="text-container">
                 <p class="line-text line1">─── Obten un 30% de ───</p>
