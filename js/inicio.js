@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     inicioContainer.innerHTML = `
         <div class="inicio-top"></div>
-        <img src="https://bnz07pap001files.storage.live.com/y4m63-rR5ubxCDR9j68u1RGXjB1ycEXJCGhAE4GQeMK_vG5v1pkcnsmz6DvrTPkzN1ccmTLyWROS8yXfV7ifIfadd-fF_0SXvwGtL-Tqpkn0t-Gb2XlTHdOXngffREXFGO-1guaw_oFf9uFz1vZISLRxN8iGRgnK_T0zQXLypSsbbTMTEoEVU3mElYhmMI1LvkUbd5KZkcPKDWXJ_hxWz7cp6pRiz8GZn_IPhM2_mZUIUU?encodeFailures=1&width=549&height=455" class="imagen-central">
+        <img src="https://bnz07pap001files.storage.live.com/y4mq247QQjgHG9WU2-FhKJkMEbRgQ_RgDVK3c8yLrYugSahiQ9jfy_hapGX7rZmHaOkK6t1IJAdZ5T18FKPpivB0081JMzTUV3pm48ElkC4B3wTyxG9PnpXwgXw-OBv6SjXJw5RgYkxC232n-b7BytXhbik51Rt26ABy2L1TE4mGqP4DBW9PzKu56TrtOzMQxhkG79DsPaJAjLDzBm60FCn61GjwIKXvbulz29pSNFi4mk?encodeFailures=1&width=619&height=485" class="imagen-central">
         <div class="inicio-bottom">
             <div class="text-container">
                 <p class="line-text line1">─── Obten un 30% de ───</p>
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             case 2:
                 infoContainer.innerHTML = `
-                <h2 class="info-title2">--- Obten desde ---</h2>
+                <h2 class="info-title2">─── Obten desde ───</h2>
                 <div class="price-highlight">$85/mes</div>
                 <p class="maintenance-description">Mantenimiento eficiente y personalizado</p>
                 <button class="details-button2">Ver Planes</button>
