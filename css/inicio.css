@@ -23,7 +23,7 @@ body {
 
 .imagen-central {
     position: absolute;
-    top: 8%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 65%;
@@ -167,9 +167,9 @@ body {
 
 
 .info-title {
-    font-size: 2em; /* Ajusta esto según lo que necesites */
-    margin-bottom: 1.5rem; /* Espacio entre el título y el botón */
-    color: #ffffff; /* Ajusta el color del texto según tu diseño */
+    font-size: 3em;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -203,6 +203,8 @@ body {
     color: #ffffff;
 }
 
+
+
 .more-info-container h3 {
     color: #000000;
     text-align: center;
@@ -214,12 +216,13 @@ body {
     color: #000000;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 15px 24px;
     cursor: pointer;
     display: block;
     width: fit-content;
-    margin: 10px auto; /* Centra los botones */
+    margin: 10px auto;
     box-shadow: 0 2px 15px 0 rgba(0,0,0,0.5);
+    font-size: 1.1rem;
 }
 
 .see-plans {
@@ -227,18 +230,15 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 15px 24px;
     cursor: pointer;
     display: block;
     width: fit-content;
-    margin: 10px auto; /* Centra los botones */
+    margin: 10px auto;
     box-shadow: 0 2px 15px 0 rgba(0,0,0,0.1);
+    font-size: 1.1rem;
 }
 
-.details-button, .see-plans:hover {
-    transform: scale(1.1);
-    transition: 0.1s;
-}
 
 
 .info-text, .small-text {
@@ -253,6 +253,51 @@ body {
 
 ul {
     padding-left: 20px;
+}
+
+.info-title2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.9rem;
+
+}
+
+.maintenance-image {
+    display: block;  
+    width: 80%;  
+    height: 30%;
+    margin: 0 auto;  
+    margin-top: 10px;  
+}
+
+
+.price-highlight {
+    font-size: 5rem;  
+    color: #ffffff;   
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+.maintenance-description {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.details-button2 {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 24px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.5);
+    font-size: 1.1rem;
 }
 
 
