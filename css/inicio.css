@@ -320,7 +320,7 @@ ul {
 
 
 .skill-item {
-    width: calc(100% - 40px); 
+    width: calc(110% - 40px); 
     margin: 20px;
     text-align: center;
     background-color: #ffffff;
@@ -349,4 +349,10 @@ ul {
 
 .titleSkills{
     color: #304A6E;
+    font-size: 1.5rem;
+}
+
+.pSkills{
+    font-size: 1.2rem;
+    margin-top: -3%;
 }

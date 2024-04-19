@@ -87,22 +87,22 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="skill-item">
                         <img src="https://bnz07pap001files.storage.live.com/y4mFt0pGACUm4615Nth4cgI9djcZ4vipSkJe0eheIPIb1jqW3Z91thMF2i_B-6Jft1p31rRHzDxzMK7oQ6OzS7mc33GQfP1bp6qmtVCXUJlwuQ1FQEW-fMGKvc2bcGSflZNT3fpSwEN7ypbPcyh0ncteiDz30upIoCt_-X7qEu9JAgl3vYPHOboUl2ZhRONGPehnWiolTmOSUezBUQPQ6xhGjwue_940Z-9VjMUGjmBaXY?encodeFailures=1&width=575&height=397" alt="Skill 1">
                         <h3 class="titleSkills">Tu Proyecto, Nuestra Prioridad</h3>
-                        <p>Soluciones web de alta calidad en tiempos récord, asegurando que tu negocio brille sin demoras.</p>
+                        <p class="pSkills">Soluciones web de alta calidad en tiempos récord, asegurando que tu negocio brille sin demoras.</p>
                     </div>
                     <div class="skill-item">
                         <img src="https://bnz07pap001files.storage.live.com/y4mtA5zpVpIZt-NpcWjJzzJr1TmrMUlH-R7AUAuMaVVFannw7SFpw-skA_87NkE9naCWuggHZ2rOn7FkwYstzXUDNumaoXq7hobCO6YDPCySHAS_0lBpvmxksuQXtpT6dfGAYFDj2RncbuISzIu6qgCNucFWzIYI6LyFvRHl3Th8K4LSNRpdFeVuxz4zPottkh4dz_HiHFCa1ZnAGlzulpC6dj9oGYJcc8Saq0lYvS6M-E?encodeFailures=1&width=428&height=432" alt="Skill 2">
                         <h3 class="titleSkills">SEO y Marketing</h3>
-                        <p>Optimizamos tu presencia online para maximizar tu alcance.</p>
+                        <p class="pSkills">Optimizamos tu presencia online para maximizar tu alcance.</p>
                     </div>
                     <div class="skill-item">
                         <img src="https://bnz07pap001files.storage.live.com/y4mdn5ioj77be15LTgoI1AZkGgo-_JM71YGz-QhNBXtMAzPsk-5uVhEGxT0FLTfwwvhxIyilzWaT7m7XXWgoIEG1De_LeTWcOQAI0Vn1Eno-rG36HhcPG2G0wz8es9LjhlWc8KumvCoxwkpSTDdymAtUNeiKbDuDwps8hD74VEx4HWNx1LZFyyzYJG9f1FbetA6Jw85PiXqtqwrG-pyGda90JeuN4n5oJuVQq8kyvOaPP8?encodeFailures=1&width=542&height=610" alt="Skill 3">
                         <h3 class="titleSkills">E-commerce</h3>
-                        <p>Plataformas robustas para que vendas en línea sin complicaciones.</p>
+                        <p class="pSkills">Plataformas robustas para que vendas en línea sin complicaciones.</p>
                     </div>
                     <div class="skill-item">
                         <img src="https://bnz07pap001files.storage.live.com/y4mk1MUEVyJReilNIiGtonH4QAe9NqOep_rEsYgwVtFpfH79RntTiUCqow1tju1_BYGJqklMRZIYatMYTnsj_7e6bqrl4vfyJ6yCXWwTtJtMXkrO-QzRL5_xSo2xsfc9kpoRYfzTbAOe7TQNWrUD0H_IkkgBYVy8DyZwm4Iff8J88KGZKTCvypUNcyVIz1YogTlPvWSFGTQF6L7yrBqcJcH7jk6Q4IVPm8UiBIAYvCB4Ao?encodeFailures=1&width=541&height=583" alt="Skill 4">
                         <h3 class="titleSkills">Soporte Técnico</h3>
-                        <p>Mantenimiento y soporte técnico que mantiene tu sitio al 100%.</p>
+                        <p class="pSkills">Mantenimiento y soporte técnico que mantiene tu sitio al 100%.</p>
                     </div>
                 </div>
                 `;
