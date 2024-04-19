@@ -152,7 +152,7 @@ body {
     background-color: #304A6E;
     margin: 0px 20px 0px 20px;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 1px solid #fff; /* Línea blanca sutil entre contenedores */
     display: flex; /* Añadido para alinear los elementos internos */
     flex-direction: column; /* Añadido para orientar los elementos en columna */
