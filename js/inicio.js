@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const inicioContainer = document.querySelector('.inicio-container');
 
-    for (let i = 1; i <= 3; i++) {
+    for (let i = 1; i <= 4; i++) {
         const infoContainer = document.createElement('div');
         infoContainer.className = `contenedorInfo contenedorInfo${i}`;
 
@@ -107,9 +107,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 `;
                 break;
-            
+                case 4:
+                    infoContainer.classList.add('skills-container');  // Añade una clase específica
+                    infoContainer.innerHTML = `
+                    <footer class="footer">
+            <div class="footer-info">
+                <p>© 2024 WebNova. Todos los derechos reservados.</p>
+                <p>Correo: contacto@webnova.com</p>
+                <p>Teléfono: +123 456 7890</p>
+            </div>
+            <div class="footer-links">
+                <a href="#!">Política de Privacidad</a>
+                <a href="#!">Términos de Servicio</a>
+            </div>
+            <div class="footer-social">
+                <a href="#!" class="social-link">Facebook</a>
+                <a href="#!" class="social-link">Twitter</a>
+                <a href="#!" class="social-link">Instagram</a>
+            </div>
+        </footer>
+                    `;
+                    break;
         }
         
         inicioContainer.appendChild(infoContainer);
     }
 });
+

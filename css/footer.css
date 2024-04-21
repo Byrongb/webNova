@@ -1,0 +1,32 @@
+.footer {
+    background-color: #304A6E;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-links,
+.footer-social {
+    margin: 10px 0;
+}
+
+.footer-links a,
+.footer-social .social-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover,
+.footer-social .social-link:hover {
+    text-decoration: underline;
+}
