@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="index.html">Inicio </a>
             <a id="see-plans">Planes <span class="arrow">&#9662;</span>
                 <div class="submenu">
-                    <a href="planesE.html">Estándar</a>
-                    <a href="planesP.html">Prime Personalizado</a>
-                    <a href="planesR.html">Renovación Web</a>
+                    <a id="planesE">Estándar</a>
+                    <a id="planesP">Prime Personalizado</a>
+                    <a id="planesR">Renovación Web</a>
                 </div>
             </a>
             <a id="servicios">Servicios <span class="arrow2">&#9662;</span>
@@ -101,6 +101,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    document.getElementById('planesE').addEventListener('click', function() { window.location.href = 'planesE.html'; });
+    document.getElementById('planesP').addEventListener('click', function() { window.location.href = 'planesP.html'; });
+    document.getElementById('planesR').addEventListener('click', function() { window.location.href = 'planesR.html'; });
     document.getElementById('logo-center').addEventListener('click', function() { window.location.href = 'index.html'; });
     document.getElementById('see-plans').addEventListener('click', function() { window.location.href = 'planes.html'; });
     document.getElementById('servicios').addEventListener('click', function() { window.location.href = 'servicios.html'; });
