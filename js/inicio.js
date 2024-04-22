@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     document.body.appendChild(inicioContainer);
+    
 });
 //comentario
 
@@ -35,10 +36,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     callToActionContainer.innerHTML = `
         <div class="cta-text">TE AYUDAMOS A IMPULSAR TU EMPRESA</div>
-        <button class="cta-button">VER PLANES</button>
+        <button id="cta-button" class="cta-button">VER PLANES</button>
     `;
 
     inicioContainer.appendChild(callToActionContainer);
+
+    document.getElementById('cta-button').addEventListener('click', function() { window.location.href = 'planes.html'; });
 });
 
 
@@ -54,12 +57,12 @@ document.addEventListener('DOMContentLoaded', function() {
             case 1:
                 infoContainer.innerHTML = `
                 <h2 class="info-title">Convierte clics en clientes</h2>
-                <button class="details-button">Obtener Detalles</button>
+                <button id="details-button" class="details-button">Obtener Detalles</button>
                 <div class="more-info-container">
                     <h3>¿Por qué WebNova?</h3>
                     <p class="info-text">Maximiza tu presencia en línea y alcanza nuevos mercados con nuestras soluciones web personalizadas.</p>
                     
-                    <button class="see-plans">VER PORTAFOLIO</button>
+                    <button id="verPortafolio" class="see-plans">VER PORTAFOLIO</button>
                     <p class="small-text">Consulte nuestros planes para más detalles sobre precios y servicios.</p>
                 </div>
 
@@ -70,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h2 class="info-title2">─── Obten desde ───</h2>
                 <div class="price-highlight">$85/mes</div>
                 <p class="maintenance-description">Mantenimiento eficiente y personalizado</p>
-                <button class="details-button2">Ver Planes</button>
+                <button id="details-button2"class="details-button2">Ver Planes</button>
                 <div class="more-info-container">
                     <img src="https://bnz07pap001files.storage.live.com/y4mazaGEryfxc4EisricxUqVevd92hSquZNSiF2Lw6h4_GsNZYyPaT-fph7OucBDqDe1zSR3PFS_Q8QFfyIXiKW1ZFG3MvcMAiD2s1zlfbyDCOZCsNvSPoVp0zDc18Fp8q0UQVq_PT5qX7fhHWpk5Ev9o0hYGrUwuq9WHtvu_KRxzW0Np-UN0F0jm3qEkwO8LhyouP1FVT5lIhz4wfwYqcSTZDgwwJ_S_mn25LlnDrQQpY?encodeFailures=1&width=543&height=486" alt="Descripción de la imagen" class="maintenance-image">
                     <p class="info-text">Garantiza el rendimiento óptimo de tu sitio web con nuestros planes de mantenimiento personalizados.</p>
@@ -132,5 +135,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         inicioContainer.appendChild(infoContainer);
     }
+    document.getElementById('verPortafolio').addEventListener('click', function() { window.location.href = 'portafolio.html'; });
+    document.getElementById('details-button').addEventListener('click', function() { window.location.href = 'planes.html'; });
+    document.getElementById('servicios').addEventListener('click', function() { window.location.href = 'servicios.html'; });
+    document.getElementById('politicas').addEventListener('click', function() { window.location.href = 'politicas.html'; });
+    document.getElementById('details-button2').addEventListener('click', function() { window.location.href = 'mantenimiento.html'; });
 });
 
