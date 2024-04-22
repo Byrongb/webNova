@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="index.html">Inicio </a>
             <a id="see-plans">Planes <span class="arrow">&#9662;</span>
                 <div class="submenu">
-                    <a href="./planesE.html" >Estándar</a>
+                    <a href="planesE.html">Estándar</a>
                     <a href="planesP.html">Prime Personalizado</a>
                     <a href="planesR.html">Renovación Web</a>
                 </div>
