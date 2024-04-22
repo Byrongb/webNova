@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="menu-icon">
             <img src="https://bnz07pap001files.storage.live.com/y4m1vaGoNRW0hRJsLMmi9Fi_WPsZzHA6sNRVL57VMzqkk8e0WqkSFa9mV2yIXztfV2KnnJegrTrU-lTszQ-KbOjStypEck9mXNg2N3zLKhrDUdXGbVnlHbdn_QIi6S1-9zIFc1VGip3-5swmL_qOeaJ_rRXyPeygtSdUO75YVazJ7FQYx3bCcxskhA0zMM3unTKlAvFyDAhnh2r1uaVtUpqyZbbz4Hyt6CRnRgKJAQaawE?encodeFailures=1&width=476&height=375" alt="Menu Icon" id="menu-toggle"> <!-- Espacio para imagen del menú -->
         </div>
-        <div class="logo-center">
+        <div id="logo-center" class="logo-center">
             <img src="https://bnz07pap001files.storage.live.com/y4mzOgoI7vC9h1pa7M-uHZ7UjRu9BXonnFktaGIyIHlZv677HtwOiY2dGVs2ysS3FC4TCb82Bi2TI2864uyVALbT1d9iwbkZLtPC5ye-c58Yx3gKx_9Z39spunV-Ohaxo3XuSxv5TykF4mwiOOHuBfBqOel8fWPawtUkfzxEIPhLbPxJcmU3Quiqrw5MIOAhq-6nXy9BVo9Z4cat13P1bNDeoLUSPzb6SQ5po7bHspPZVU?encodeFailures=1&width=440&height=432" alt="WebNova Logo" class="logo">
         </div>
         
@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
     <div id="side-menu" class="side-menu">
         <img src="https://bnz07pap001files.storage.live.com/y4m1vaGoNRW0hRJsLMmi9Fi_WPsZzHA6sNRVL57VMzqkk8e0WqkSFa9mV2yIXztfV2KnnJegrTrU-lTszQ-KbOjStypEck9mXNg2N3zLKhrDUdXGbVnlHbdn_QIi6S1-9zIFc1VGip3-5swmL_qOeaJ_rRXyPeygtSdUO75YVazJ7FQYx3bCcxskhA0zMM3unTKlAvFyDAhnh2r1uaVtUpqyZbbz4Hyt6CRnRgKJAQaawE?encodeFailures=1&width=476&height=375" alt="Close Menu" id="menu-close" class="menu-close">
         <div class="menu-item">
-            <a href="./index.html">Inicio </a>
+            <a href="index.html">Inicio </a>
             <a id="see-plans">Planes <span class="arrow">&#9662;</span>
                 <div class="submenu">
-                    <a href="#">Estándar</a>
-                    <a href="#">Prime Personalizado</a>
-                    <a href="#">Renovación Web</a>
+                    <a href="./planesE.html" >Estándar</a>
+                    <a href="planesP.html">Prime Personalizado</a>
+                    <a href="planesR.html">Renovación Web</a>
                 </div>
             </a>
             <a id="servicios">Servicios <span class="arrow2">&#9662;</span>
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </a>
             <a href="./portafolio.html">Portafolio</a>
-            <a id="politicas">Políticas<span class="arrow3">&#9662;</span>                                                                                                                               
+            <a id="politicas1">Políticas <span class="arrow3">&#9662;</span>                                                                                                                               
                  <div class="submenu3">
                     <a href="#">Garantía</a>
                     <a href="#">Facturación</a>
@@ -101,7 +101,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    
+    document.getElementById('logo-center').addEventListener('click', function() { window.location.href = 'index.html'; });
+    document.getElementById('see-plans').addEventListener('click', function() { window.location.href = 'planes.html'; });
+    document.getElementById('servicios').addEventListener('click', function() { window.location.href = 'servicios.html'; });
+    document.getElementById('politicas1').addEventListener('click', function() { window.location.href = 'politicas.html'; });
+    document.getElementById('details-button').addEventListener('click', function() { window.location.href = 'planes.html'; });
+
+   
 });
 
 

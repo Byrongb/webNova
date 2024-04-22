@@ -136,9 +136,10 @@ document.addEventListener('DOMContentLoaded', function() {
         inicioContainer.appendChild(infoContainer);
     }
     document.getElementById('verPortafolio').addEventListener('click', function() { window.location.href = 'portafolio.html'; });
-    document.getElementById('details-button').addEventListener('click', function() { window.location.href = 'planes.html'; });
-    document.getElementById('servicios').addEventListener('click', function() { window.location.href = 'servicios.html'; });
-    document.getElementById('politicas').addEventListener('click', function() { window.location.href = 'politicas.html'; });
     document.getElementById('details-button2').addEventListener('click', function() { window.location.href = 'mantenimiento.html'; });
+    document.getElementById('see-plans').addEventListener('click', function() { window.location.href = 'planes.html'; });
+    document.getElementById('servicios').addEventListener('click', function() { window.location.href = 'servicios.html'; });
+    document.getElementById('politicas1').addEventListener('click', function() { window.location.href = 'politicas.html'; });
+    document.getElementById('details-button').addEventListener('click', function() { window.location.href = 'planes.html'; });
 });
 
