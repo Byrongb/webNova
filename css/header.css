@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .header {
@@ -37,10 +38,11 @@ body {
     height: 100%;
     background-color: #333;
     transition: transform 0.3s;
+    overflow-y: auto; /* Permite el desplazamiento vertical dentro del menú */
     transform: translateX(-100%);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding-top: 120px; /* Espacio para el ícono de cierre */
     box-sizing: border-box;
     z-index: 998;
@@ -70,9 +72,88 @@ body {
     margin: 10px 0;
     font-size: 1.5em;
     margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    display: block;
+
 }
 
 .no-scroll {
     overflow: hidden;
+}
+
+
+.arrow {
+    float: right;
+    font-size: 2rem;
+    margin-right: 0.6rem;
+    margin-top: -0.4rem;
+    transition: transform 0.3s ease; /* Transición suave para la transformación */
+}
+
+.arrow-rotate {
+    transform: rotate(180deg); /* Rota la flecha 180 grados */
+}
+
+.arrow2 {
+    float: right;
+    font-size: 2rem;
+    margin-right: 0.6rem;
+    margin-top: -0.4rem;
+    transition: transform 0.3s ease; /* Transición suave para la transformación */
+}
+
+.arrow3 {
+    float: right;
+    font-size: 2rem;
+    margin-right: 0.6rem;
+    margin-top: -0.4rem;
+    transition: transform 0.3s ease; /* Transición suave para la transformación */
+}
+
+.submenu {
+    display: none;
+    margin-top: -15px;
+    transition: 3s;
+}
+
+.submenu2 {
+    display: none;
+    margin-top: -15px;
+    transition: 3s;
+}
+
+.submenu3 {
+    display: none;
+    margin-top: -15px;
+    transition: 3s;
+}
+
+.submenu-active {
+    display: block; 
+}
+
+
+
+.submenu-active2 {
+    display: block; 
+}
+
+.submenu-active3 {
+    display: block; 
+}
+
+.submenu a {
+    padding-left: 20px; 
+    font-size: 1.1rem;
+}
+
+.submenu2 a {
+    padding-left: 20px; 
+    font-size: 1.1rem;
+}
+
+.submenu3 a {
+    padding-left: 20px; 
+    font-size: 1.1rem;
 }
 

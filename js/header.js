@@ -14,18 +14,55 @@ document.addEventListener('DOMContentLoaded', function() {
     </header>
     <div id="side-menu" class="side-menu">
         <img src="https://bnz07pap001files.storage.live.com/y4m1vaGoNRW0hRJsLMmi9Fi_WPsZzHA6sNRVL57VMzqkk8e0WqkSFa9mV2yIXztfV2KnnJegrTrU-lTszQ-KbOjStypEck9mXNg2N3zLKhrDUdXGbVnlHbdn_QIi6S1-9zIFc1VGip3-5swmL_qOeaJ_rRXyPeygtSdUO75YVazJ7FQYx3bCcxskhA0zMM3unTKlAvFyDAhnh2r1uaVtUpqyZbbz4Hyt6CRnRgKJAQaawE?encodeFailures=1&width=476&height=375" alt="Close Menu" id="menu-close" class="menu-close">
-        <a href="#">Inicio</a>
-        <a href="#">Planes</a>
-        <a href="#">Servicios</a>
-        <a href="#">Portafolio</a>
-        <a href="#">Politicas</a>
-        <a href="#">Contacto</a>
-
+        <div class="menu-item">
+            <a href="#">Inicio </a>
+            <a href="#" class="aMenu">Planes <span class="arrow">&#9662;</span>
+                <div class="submenu">
+                    <a href="#">Estándar</a>
+                    <a href="#">Prime Personalizado</a>
+                    <a href="#">Renovación Web</a>
+                </div>
+            </a>
+            <a href="#" class="aMenu2">Servicios <span class="arrow2">&#9662;</span>
+                <div class="submenu2">
+                    <a href="#">Mantenimiento Web</a>
+                    <a href="#">Trabajo Personalizado</a>
+                </div>
+            </a>
+            <a href="#">Portafolio</a>
+            <a href="#" class="aMenu3">Políticas<span class="arrow3">&#9662;</span>                                                                                                                               
+                 <div class="submenu3">
+                    <a href="#">Garantía</a>
+                    <a href="#">Facturación</a>
+                    <a href="#">Servicio</a>
+                </div>
+            </a>
+            <a href="#">Contacto</a>
+        </div>
     </div>
     `;
     const menuToggle = document.getElementById('menu-toggle');
     const menuClose = document.getElementById('menu-close');
     const sideMenu = document.getElementById('side-menu');
+    const submenu = document.querySelector('.submenu');
+    const submenu2 = document.querySelector('.submenu2');
+    const submenu3 = document.querySelector('.submenu3');
+    const aMenu = document.querySelector('.aMenu');
+    const aMenu2 = document.querySelector('.aMenu2');
+    const aMenu3 = document.querySelector('.aMenu3');
+    const arrow = document.querySelector('.arrow');
+    const arrow2 = document.querySelector('.arrow2');
+    const arrow3 = document.querySelector('.arrow3');
+
+    function closeSubmenus() {
+        submenu.classList.remove('submenu-active');
+        submenu2.classList.remove('submenu-active2');
+        submenu3.classList.remove('submenu-active3');
+        arrow.classList.remove('arrow-rotate');
+        arrow2.classList.remove('arrow-rotate');
+        arrow3.classList.remove('arrow-rotate');
+    }
+
 
     menuToggle.addEventListener('click', function() {
         sideMenu.classList.add('menu-active');
@@ -35,6 +72,44 @@ document.addEventListener('DOMContentLoaded', function() {
     menuClose.addEventListener('click', function() {
         sideMenu.classList.remove('menu-active');
         body.classList.remove('no-scroll');
+        closeSubmenus();
+    });
+
+    aMenu.addEventListener('click', function(e) {
+        e.stopPropagation();
+        submenu.classList.toggle('submenu-active');
+        arrow.classList.toggle('arrow-rotate'); // Agrega o quita la clase para rotar la flecha
+
+    });
+
+    aMenu2.addEventListener('click', function(e) {
+        e.stopPropagation();
+        submenu2.classList.toggle('submenu-active2');
+        arrow2.classList.toggle('arrow-rotate'); // Agrega o quita la clase para rotar la flecha
+    });
+
+    aMenu3.addEventListener('click', function(e) {
+        e.stopPropagation();
+        submenu3.classList.toggle('submenu-active3');
+        arrow3.classList.toggle('arrow-rotate'); // Agrega o quita la clase para rotar la flecha
+    });
+
+    arrow.addEventListener('click', function(e) {
+        e.stopPropagation();
+        submenu.classList.toggle('submenu-active');
+        arrow.classList.toggle('arrow-rotate'); // Agrega o quita la clase para rotar la flecha
+    });
+
+    arrow2.addEventListener('click', function(e) {
+        e.stopPropagation();
+        submenu2.classList.toggle('submenu-active2');
+        arrow2.classList.toggle('arrow-rotate'); // Agrega o quita la clase para rotar la flecha
+    });
+
+    arrow3.addEventListener('click', function(e) {
+        e.stopPropagation();
+        submenu3.classList.toggle('submenu-active3');
+        arrow3.classList.toggle('arrow-rotate'); // Agrega o quita la clase para rotar la flecha
     });
 
     body.addEventListener('click', function(event) {
@@ -42,8 +117,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!sideMenu.contains(event.target) && !menuToggle.contains(event.target) && sideMenu.classList.contains('menu-active')) {
             sideMenu.classList.remove('menu-active');
             body.classList.remove('no-scroll');
+            closeSubmenus();
         }
     });
+
+    
 });
 
-//comentario
+
