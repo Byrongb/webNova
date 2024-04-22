@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.appendChild(inicioContainer);
     
 });
-//comentario
+//comentario MODIFICICACION
 
 document.addEventListener('DOMContentLoaded', function() {
     const inicioContainer = document.querySelector('.inicio-container');

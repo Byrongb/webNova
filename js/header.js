@@ -72,12 +72,12 @@ document.addEventListener('DOMContentLoaded', function() {
         closeSubmenus();
     });
 
-    
+    //comentario MODIFICICACION
 
     arrow.addEventListener('click', function(e) {
         e.stopPropagation();
         submenu.classList.toggle('submenu-active');
-        arrow.classList.toggle('arrow-rotate'); // Agrega o quita la clase para rotar la flecha
+        arrow.classList.toggle('arrow-rotate'); // Agrega o quita la clase para rotar la flecha 
     });
 
     arrow2.addEventListener('click', function(e) {
