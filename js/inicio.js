@@ -88,22 +88,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p class="skill-description">Desarrollamos soluciones que no solo cumplen con las expectativas, sino que las superan, asegurando resultados que realmente marcan la diferencia.</p>
                 <div class="skills-grid">
                     <div class="skill-item">
-                        <img src="https://bnz07pap001files.storage.live.com/y4mFt0pGACUm4615Nth4cgI9djcZ4vipSkJe0eheIPIb1jqW3Z91thMF2i_B-6Jft1p31rRHzDxzMK7oQ6OzS7mc33GQfP1bp6qmtVCXUJlwuQ1FQEW-fMGKvc2bcGSflZNT3fpSwEN7ypbPcyh0ncteiDz30upIoCt_-X7qEu9JAgl3vYPHOboUl2ZhRONGPehnWiolTmOSUezBUQPQ6xhGjwue_940Z-9VjMUGjmBaXY?encodeFailures=1&width=575&height=397" alt="Skill 1">
+                        <img src="https://bnz07pap001files.storage.live.com/y4m98Ib6uA16AVLcetJnZN7BhFxCwnE3v408ERmAWCC5fNYQtS4Co42Jm-lyyj-LpducP4xgq4jmdAAF8slBfr9SL_5XIRH9XgDihlfKmQ2jn-ZMmgHX4H1531jzhM5nIsx3EK31iae_HFBZSdTkeH8quIjCsgbBdfMAyxII-0VojL0KGeC1Ji5ytkUnt2s3ZGhagnqjm5Zz2jt979bBxuwOfC8cNilLaNRU7RC-ovmRKc?encodeFailures=1&width=575&height=397" alt="Skill 1">
                         <h3 class="titleSkills">Tu Proyecto, Nuestra Prioridad</h3>
                         <p class="pSkills">Soluciones web de alta calidad en tiempos récord, asegurando que tu negocio brille sin demoras.</p>
                     </div>
                     <div class="skill-item">
-                        <img src="https://bnz07pap001files.storage.live.com/y4mtA5zpVpIZt-NpcWjJzzJr1TmrMUlH-R7AUAuMaVVFannw7SFpw-skA_87NkE9naCWuggHZ2rOn7FkwYstzXUDNumaoXq7hobCO6YDPCySHAS_0lBpvmxksuQXtpT6dfGAYFDj2RncbuISzIu6qgCNucFWzIYI6LyFvRHl3Th8K4LSNRpdFeVuxz4zPottkh4dz_HiHFCa1ZnAGlzulpC6dj9oGYJcc8Saq0lYvS6M-E?encodeFailures=1&width=428&height=432" alt="Skill 2">
+                        <img src="https://bnz07pap001files.storage.live.com/y4mptM8W1bxI4v8y_sKSSYlfYV54p2xWkqxlDJg6MtfbImB-ALBGftavPdRQgm6upd71NeZvCWWnZpez9Z-sdfP3ijZr4IGw6zPQ8t_R7m7fwW1FINKYNt-YeVCe2QOhwEOR6-0ORRFet-oRkvDIHlBe72wbHsu6DK9mxNRtcypUZJ_j7QPNdLeVJosE0bxgKppl9lbRactBO0Iflntqc0HItjiI3F16AuaK6dirS2Bil0?encodeFailures=1&width=428&height=432" alt="Skill 2">
                         <h3 class="titleSkills">SEO y Marketing</h3>
                         <p class="pSkills">Optimizamos tu presencia online para maximizar tu alcance.</p>
                     </div>
                     <div class="skill-item">
-                        <img src="https://bnz07pap001files.storage.live.com/y4mdn5ioj77be15LTgoI1AZkGgo-_JM71YGz-QhNBXtMAzPsk-5uVhEGxT0FLTfwwvhxIyilzWaT7m7XXWgoIEG1De_LeTWcOQAI0Vn1Eno-rG36HhcPG2G0wz8es9LjhlWc8KumvCoxwkpSTDdymAtUNeiKbDuDwps8hD74VEx4HWNx1LZFyyzYJG9f1FbetA6Jw85PiXqtqwrG-pyGda90JeuN4n5oJuVQq8kyvOaPP8?encodeFailures=1&width=542&height=610" alt="Skill 3">
+                        <img src="https://bnz07pap001files.storage.live.com/y4mMbP5CEkGqNLR8sNqOZ7hDAX2hCdRPy75qkfo66Sp-1A5I6EseccosnNpLf6FB_9Z7mIrCoSFm33lYYZxWQ9CGwGaWBIxObxuZB862IHkRVXQcn4DzM7d2Oc8lSiJpp9-uHlAEibqQ2ASnazANQvs6eTsV9DM5ySQPF8ea-7aHmO9CGAkUwVMqlOcQTE19M5fIq6z9VHUDJ7JjzUyPCArVSAhEIB5c-NuhPh55vwttLc?encodeFailures=1&width=542&height=610" alt="Skill 3">
                         <h3 class="titleSkills">E-commerce</h3>
                         <p class="pSkills">Plataformas robustas para que vendas en línea sin complicaciones.</p>
                     </div>
                     <div class="skill-item">
-                        <img src="https://bnz07pap001files.storage.live.com/y4mk1MUEVyJReilNIiGtonH4QAe9NqOep_rEsYgwVtFpfH79RntTiUCqow1tju1_BYGJqklMRZIYatMYTnsj_7e6bqrl4vfyJ6yCXWwTtJtMXkrO-QzRL5_xSo2xsfc9kpoRYfzTbAOe7TQNWrUD0H_IkkgBYVy8DyZwm4Iff8J88KGZKTCvypUNcyVIz1YogTlPvWSFGTQF6L7yrBqcJcH7jk6Q4IVPm8UiBIAYvCB4Ao?encodeFailures=1&width=541&height=583" alt="Skill 4">
+                        <img src="https://bnz07pap001files.storage.live.com/y4mpcGnTfHb6bkNoHMbBis2suMu14bf3v_1F3V_tpntrtk8SnwA3oI7LEksAaFGcEZ23A45d-5E9WdLb2J2o1rAdFcLNrOp0XImgXFdnRO5CcTtd8AnwyGlGiI3VK3G00i1MiSeznNRBuCOgt6mm0EjG18R9i3Bw3APQZfac9-6ckUelOdWq0B2jT94BkKOEjJsuj7gQK2NxZo1VMRvGRdA_7Vr-BIFRWx3mjzTGJcafSI?encodeFailures=1&width=541&height=583" alt="Skill 4">
                         <h3 class="titleSkills">Soporte Técnico</h3>
                         <p class="pSkills">Mantenimiento y soporte técnico que mantiene tu sitio al 100%.</p>
                     </div>
