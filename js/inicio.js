@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     inicioContainer.innerHTML = `
         <div class="inicio-top"></div>
-        <img src="https://bnz07pap001files.storage.live.com/y4mq247QQjgHG9WU2-FhKJkMEbRgQ_RgDVK3c8yLrYugSahiQ9jfy_hapGX7rZmHaOkK6t1IJAdZ5T18FKPpivB0081JMzTUV3pm48ElkC4B3wTyxG9PnpXwgXw-OBv6SjXJw5RgYkxC232n-b7BytXhbik51Rt26ABy2L1TE4mGqP4DBW9PzKu56TrtOzMQxhkG79DsPaJAjLDzBm60FCn61GjwIKXvbulz29pSNFi4mk?encodeFailures=1&width=619&height=485" class="imagen-central">
+        <img src="https://bnz07pap001files.storage.live.com/y4mHJKSKLhEZLMmuU0ktuFO1-7p3IWT970e9YHSKjAYNwM4fORsn0QdXJ65eTz5fcqHJ7cUJ6dI69QlZx4vU9MAUR0J6xDGK8qifzh7Tzn6x57oJPQE75gdXiLU9wcIOtelVB7JOn8OAVLT6K6G1EU-J0CEemkMykZmEAUvvdnRjYIu8Mn19koMMvVI7aizxxkdQG5hpsMGVHAHlCdaWukbz1S2DL-6OkL1rOUpC6hcgKc?encodeFailures=1&width=619&height=485" class="imagen-central">
         <div class="inicio-bottom">
             <div class="text-container">
                 <p class="line-text line1">─── Obten un 30% de ───</p>
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p class="maintenance-description">Mantenimiento eficiente y personalizado</p>
                 <button id="details-button2"class="details-button2">Ver Planes</button>
                 <div class="more-info-container">
-                    <img src="https://bnz07pap001files.storage.live.com/y4mazaGEryfxc4EisricxUqVevd92hSquZNSiF2Lw6h4_GsNZYyPaT-fph7OucBDqDe1zSR3PFS_Q8QFfyIXiKW1ZFG3MvcMAiD2s1zlfbyDCOZCsNvSPoVp0zDc18Fp8q0UQVq_PT5qX7fhHWpk5Ev9o0hYGrUwuq9WHtvu_KRxzW0Np-UN0F0jm3qEkwO8LhyouP1FVT5lIhz4wfwYqcSTZDgwwJ_S_mn25LlnDrQQpY?encodeFailures=1&width=543&height=486" alt="Descripción de la imagen" class="maintenance-image">
+                    <img src="https://bnz07pap001files.storage.live.com/y4mAaSZQjfF3tlg9qDx_zYEdNC7NfCIfYrtsBO7xCF0LkvZ1fvWwRiwoXXdrjpifH-166G1LEVfebMtTgLgd9ADBm1W9IIDgzdAYpqrXZ3hANVp7vqWJdTHKT4ZhDADdHGg4k6PDR7hRMNZxjc85lEnwQnIL2JxFsGDa62AAp82OeUNLPxzpPDIpPMuxRn_ivk2LKIrR0cr-2pQIGoa1ROa5816nNZUJq-UuVrwoxfN-m0?encodeFailures=1&width=543&height=486" alt="Descripción de la imagen" class="maintenance-image">
                     <p class="info-text">Garantiza el rendimiento óptimo de tu sitio web con nuestros planes de mantenimiento personalizados.</p>
                     <p class="small-text2">Compra 4 meses y obten 2 meses GRATIS.</p>
                 </div>

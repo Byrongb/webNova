@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
     headerContainer.innerHTML = `
     <header class="header">
         <div class="menu-icon">
-            <img src="https://bnz07pap001files.storage.live.com/y4m1vaGoNRW0hRJsLMmi9Fi_WPsZzHA6sNRVL57VMzqkk8e0WqkSFa9mV2yIXztfV2KnnJegrTrU-lTszQ-KbOjStypEck9mXNg2N3zLKhrDUdXGbVnlHbdn_QIi6S1-9zIFc1VGip3-5swmL_qOeaJ_rRXyPeygtSdUO75YVazJ7FQYx3bCcxskhA0zMM3unTKlAvFyDAhnh2r1uaVtUpqyZbbz4Hyt6CRnRgKJAQaawE?encodeFailures=1&width=476&height=375" alt="Menu Icon" id="menu-toggle"> <!-- Espacio para imagen del menú -->
+            <img src="https://bnz07pap001files.storage.live.com/y4mdjd2kzFJAM_YROVhQLlXjppbxwmHa1he8HccbLmZ7QiTEKat3ROAfqM10xjzAeDXQ_UwnRwELyxtZw3w1JaOqkHZJfle1_7sdUOtD1hwJ05E_Y7xm_EK6gUKBN4GY4Gdzkj5n4oeLD4h0UTc5fz1K0bxHn3MCLOBBuQOWmAJnuyfF2FOPDuzPIF3i5b1BhvK-lvEDfeOPceAOCzNJ83GgbT_daE27NW6YmRxReboN_w?encodeFailures=1&width=476&height=375" alt="Menu Icon" id="menu-toggle"> <!-- Espacio para imagen del menú -->
         </div>
         <div id="logo-center" class="logo-center">
-            <img src="https://bnz07pap001files.storage.live.com/y4mzOgoI7vC9h1pa7M-uHZ7UjRu9BXonnFktaGIyIHlZv677HtwOiY2dGVs2ysS3FC4TCb82Bi2TI2864uyVALbT1d9iwbkZLtPC5ye-c58Yx3gKx_9Z39spunV-Ohaxo3XuSxv5TykF4mwiOOHuBfBqOel8fWPawtUkfzxEIPhLbPxJcmU3Quiqrw5MIOAhq-6nXy9BVo9Z4cat13P1bNDeoLUSPzb6SQ5po7bHspPZVU?encodeFailures=1&width=440&height=432" alt="WebNova Logo" class="logo">
+            <img src="https://bnz07pap001files.storage.live.com/y4mew0wsE7u1_3A5teCjarUgWdETw_9VgiYytQurq1jjv3D7wUPkv9Tlr6Hf0Atd3SwH7OZViNb5f4RTQmMC8nocJDp5L43MezSmpOMMpLauNnLP9VxhRHILjaDztgg4buA70mF-nhMyde1uwAyZU3gU8lwqhRPbdfuuwKaw_LJK55zwG6xTWp9wUhEIkuxWfmzZ9QpmbHY4Ox_7T19qczMoGTcCztyySJe8gxNvD9UahI?encodeFailures=1&width=440&height=432" alt="WebNova Logo" class="logo">
         </div>
         
     </header>
