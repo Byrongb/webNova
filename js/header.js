@@ -25,16 +25,16 @@ document.addEventListener('DOMContentLoaded', function() {
             </a>
             <a id="servicios">Servicios <span class="arrow2">&#9662;</span>
                 <div class="submenu2">
-                    <a href="#">Mantenimiento Web</a>
-                    <a href="#">Trabajo Personalizado</a>
+                    <a href="/mantenimiento.html">Mantenimiento Web</a>
+                    <a href="/trabajoPersonalizado.html">Trabajo Personalizado</a>
                 </div>
             </a>
             <a href="./portafolio.html">Portafolio</a>
             <a id="politicas1">Políticas <span class="arrow3">&#9662;</span>                                                                                                                               
                  <div class="submenu3">
-                    <a href="#">Garantía</a>
-                    <a href="#">Facturación</a>
-                    <a href="#">Servicio</a>
+                    <a href="politicasGarantias.html">Garantía</a>
+                    <a href="politicasFacturacion.html">Facturación</a>
+                    <a href="politicasServicio.html">Servicio</a>
                 </div>
             </a>
             <a href="./contacto.html">Contacto</a>
