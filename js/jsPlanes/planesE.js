@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerContainer = document.getElementById('footer-container'); // Asegúrate de tener este contenedor en tu HTML
 
     footerContainer.innerHTML = `
-    <footer class="footerP">
+    <footer class="footer">
         <div class="footer-info">
             <p>© 2024 WebNova. Todos los derechos reservados.</p>
             <p>Correo: contacto@webnova.com</p>

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const body = document.body;
 
     headerContainer.innerHTML = `
-    <header class="header">
+    <header class="header" >
         <div class="menu-icon">
             <img src="https://bnz07pap001files.storage.live.com/y4mdjd2kzFJAM_YROVhQLlXjppbxwmHa1he8HccbLmZ7QiTEKat3ROAfqM10xjzAeDXQ_UwnRwELyxtZw3w1JaOqkHZJfle1_7sdUOtD1hwJ05E_Y7xm_EK6gUKBN4GY4Gdzkj5n4oeLD4h0UTc5fz1K0bxHn3MCLOBBuQOWmAJnuyfF2FOPDuzPIF3i5b1BhvK-lvEDfeOPceAOCzNJ83GgbT_daE27NW6YmRxReboN_w?encodeFailures=1&width=476&height=375" alt="Menu Icon" id="menu-toggle"> <!-- Espacio para imagen del menú -->
         </div>

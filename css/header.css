@@ -12,6 +12,15 @@ body {
     background-color: #304A6E;
 }
 
+#headerP {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #9f7d23;
+}
+
+
 .menu-icon, .logo-center, .buy-now {
     text-align: right;
     padding-right: 10px;
