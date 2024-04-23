@@ -35,7 +35,7 @@
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px; /* Añade un margen inferior para separar los contenedores */
-    width: 80%; /* Ajusta la anchura para un diseño más consistente */
+    width: 70%; /* Ajusta la anchura para un diseño más consistente */
     text-align: left;
     box-shadow: 0 2px 5px rgba(108, 18, 204, 0.502); /* Opcional: añade sombra para mejor estética */
 }
@@ -82,6 +82,8 @@
     padding: 10px 20px;
     cursor: pointer;
     margin-top: 10px;
+    width: 100%;
+    font-size: 1.1rem;
 }
 
 .contact-button:hover {
