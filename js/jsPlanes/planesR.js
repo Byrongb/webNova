@@ -142,6 +142,12 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         `;
     }
+
+    document.querySelectorAll('.contact-button').forEach(button => {
+        button.addEventListener('click', function() {
+            window.location.href = '/contacto.html'; // Asegúrate de que esta URL sea correcta
+        });
+    });
 });
 
 

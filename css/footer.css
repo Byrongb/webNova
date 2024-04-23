@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 120%;
 }
 
 
@@ -29,6 +29,40 @@
 
 .footer-links a:hover,
 .footer-social .social-link:hover {
+    text-decoration: underline;
+}
+
+.footerE {
+    background-color: #304A6E;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.footer-infoE p {
+    margin: 5px 0;
+}
+
+.footer-linksE,
+.footer-socialE {
+    margin: 10px 0;
+}
+
+.footer-linksE a,
+.footer-socialE .social-linkE {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-linksE a:hover,
+.footer-socialE .social-linkE:hover {
     text-decoration: underline;
 }
 
