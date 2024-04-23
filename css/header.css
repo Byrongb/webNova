@@ -20,6 +20,15 @@ body {
     background-color: #9f7d23;
 }
 
+.headerR {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    border: 1px solid #ddd;
+}
+
 
 .menu-icon, .logo-center, .buy-now {
     text-align: right;
