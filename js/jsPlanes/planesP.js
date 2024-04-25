@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
     headerContainer.innerHTML = `
     <header id="headerP">
         <div class="menu-icon">
-            <img src="https://bnz07pap001files.storage.live.com/y4mdjd2kzFJAM_YROVhQLlXjppbxwmHa1he8HccbLmZ7QiTEKat3ROAfqM10xjzAeDXQ_UwnRwELyxtZw3w1JaOqkHZJfle1_7sdUOtD1hwJ05E_Y7xm_EK6gUKBN4GY4Gdzkj5n4oeLD4h0UTc5fz1K0bxHn3MCLOBBuQOWmAJnuyfF2FOPDuzPIF3i5b1BhvK-lvEDfeOPceAOCzNJ83GgbT_daE27NW6YmRxReboN_w?encodeFailures=1&width=476&height=375" alt="Menu Icon" id="menu-toggle"> <!-- Espacio para imagen del menú -->
+            <img src="img/Captura_de_pantalla_2024-04-10_193118-removebg-preview.png" alt="Menu Icon" id="menu-toggle"> <!-- Espacio para imagen del menú -->
         </div>
         <div id="logo-center" class="logo-center">
-            <img src="https://bnz07pap001files.storage.live.com/y4mew0wsE7u1_3A5teCjarUgWdETw_9VgiYytQurq1jjv3D7wUPkv9Tlr6Hf0Atd3SwH7OZViNb5f4RTQmMC8nocJDp5L43MezSmpOMMpLauNnLP9VxhRHILjaDztgg4buA70mF-nhMyde1uwAyZU3gU8lwqhRPbdfuuwKaw_LJK55zwG6xTWp9wUhEIkuxWfmzZ9QpmbHY4Ox_7T19qczMoGTcCztyySJe8gxNvD9UahI?encodeFailures=1&width=440&height=432" alt="WebNova Logo" class="logo">
+            <img src="img/image-removebg-preview (2).png" alt="WebNova Logo" class="logo">
         </div>
         
     </header>
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('content'); // Asegúrate de que este ID exista en tu HTML
 
     container.innerHTML = `
-        <img src="https://bnz07pap001files.storage.live.com/y4mJLwtxtUiTYJih-p6PR_r1CT574R8u9IeH2-Qq14xw4HpS80ezismkJmj-0NndND2QWgMkhXoowhejmthqbKjsmcWBGXTE3j-mxhK9iZqWNqAAbOGVofmRQ-RODdj5w5dfTgQZOKOpNuinwyiDF6y5QW7yttHbynZzhJn9WLQePNtOR8eoEpPvXsShyy5oOaYVKMHZzqWIFnfGwHE3CokNUqnkGic0doC8E39NtHBa7g?encodeFailures=1&width=1227&height=683" alt="Descripción de la imagen" class="feature-image">
+        <img src="img/Captura de pantalla 2024-04-25 151455.png" alt="Descripción de la imagen" class="feature-image">
         <h1 class="title">Nuestros Planes Prime Personalizado</h1>
         <p class="description">Explora los planes diseñados para ofrecerte la mejor relación calidad-precio.</p>
         <div class="plans-container">

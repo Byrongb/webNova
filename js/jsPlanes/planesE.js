@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('content'); // Asegúrate de que este ID exista en tu HTML
 
     container.innerHTML = `
-        <img src="https://bnz07pap001files.storage.live.com/y4mPMDiQuYzUQY59V-7hRaNPbbxiUL4mBXABchSTQRFZ9F9ApDdebrJJnY71X8_3ByGhzZvO4wufFtgMzI1iDxTEdwkGe-tDkH5MNzeZHFPElxOhNGTxCWsyJkNrXksSc7MzuoIkfYiAKDVBBLn24PRq1gtW8HMkqbsufHLoa-V7o6wjTH3aKPAfgk_QellFtDJvZxPS4zVIkx2cgxDRNR3KfBRJdvVpVC9VpzmEIF1X4M?encodeFailures=1&width=1032&height=640" alt="Descripción de la imagen" class="feature-image">
+        <img src="img/Captura de pantalla 2024-04-22 153857.png" alt="Descripción de la imagen" class="feature-image">
         <h1 class="title">Nuestros Planes Estándar</h1>
         <p class="description">Explora los planes diseñados para ofrecerte la mejor relación calidad-precio.</p>
         <div class="plans-container">

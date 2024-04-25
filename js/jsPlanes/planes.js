@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <h1 class="title">Descubre las Ventajas de WebNova</h1>
             ${createAdvantage('Soporte Dedicado', 'Contamos con un equipo de soporte técnico disponible 24/7 para asegurar el funcionamiento óptimo de tu sitio web.', 'img/image-removebg-preview (7).png')}
             ${createAdvantage('Tecnología de Punta', 'Utilizamos las últimas tecnologías para desarrollar sitios web que no solo lucen bien, sino que también son rápidos y seguros.', 'img/image-removebg-preview (8).png')}
-            ${createAdvantage('Diseño Personalizado', 'Cada proyecto es único. Desarrollamos diseños personalizados que reflejan la esencia de tu marca.', 'https://bnz07pap001files.storage.live.com/y4mopJlB2faqdBsgrSTkw0fRhZcTZMApVcgf-L1zGMvGqtC5vAF8hwfhnfa0p1C2DEKgqtJ0bUP0T7NrTPWVugXgMZeqLXhRwttKpRLPtEprozWD96eAJ8Ccj5TOHm8OAdl1tsVeRQun3jmrivH2KTT-rwR5_w_HF2zsUX5bdyqcWlGJNVRtY0-TMg7ofWJicjCK_x3wwwz2Iqv5dmRhtNAmLLlJRV9O3XqQikfR5CkF5Q?encodeFailures=1&width=584&height=427')}
+            ${createAdvantage('Diseño Personalizado', 'Cada proyecto es único. Desarrollamos diseños personalizados que reflejan la esencia de tu marca.', 'img/image-removebg-preview (12).png')}
         </div>
         <div class="buttons-container">
             <button onclick="window.location.href='planesE.html'">Planes Estándar</button>
