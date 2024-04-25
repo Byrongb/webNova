@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </li>
             <li>
                 <at-link class="at-linkP">
-                    <a name="at-link" href="planesp.html">
+                    <a name="at-link" href="planesP.html">
                         <span>Quiero Sitio Web</span>
                     </a>
                 </at-link>
