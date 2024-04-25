@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
         <ul>
             <li>
                 <at-link class="at-linkP">
-                    <a name="at-link" href="/planesR.html">
+                    <a name="at-link" href="planesR.html">
                         <span>Tengo Sitio Web</span>
                     </a>
                 </at-link>
             </li>
             <li>
                 <at-link class="at-linkP">
-                    <a name="at-link" href="/planesp.html">
+                    <a name="at-link" href="planesp.html">
                         <span>Quiero Sitio Web</span>
                     </a>
                 </at-link>
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="more-info-container">
             <h3>Elije Tu Estilo con WebNova</h3>
             <p class="info-text">Selecciona cualquier plantilla de nuestro extenso portafolio y personalízala para que se adapte perfectamente a las necesidades de tu negocio. Con WebNova, transformarás tu presencia en línea utilizando diseños probados que destacan por su eficacia y atractivo visual.</p>
-            <button onclick="window.location.href='/portafolio.html'" id="verPortafolio" class="see-plans">VER PORTAFOLIO</button>
+            <button onclick="window.location.href='portafolio.html'" id="verPortafolio" class="see-plans">VER PORTAFOLIO</button>
             <p class="small-text">Explora nuestras opciones para encontrar el diseño que más se alinea con tu visión empresarial. Personalización a tu medida.</p>
         </div>
 
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelectorAll('.details-button').forEach(button => {
         button.addEventListener('click', function() {
-            window.location.href = '/planesP.html'; // Asegúrate de que esta URL sea correcta
+            window.location.href = 'planesP.html'; // Asegúrate de que esta URL sea correcta
         });
     });
 
