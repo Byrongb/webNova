@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     inicioContainer.innerHTML = `
         <div class="inicio-top"></div>
-        <img src="https://bnz07pap001files.storage.live.com/y4mHJKSKLhEZLMmuU0ktuFO1-7p3IWT970e9YHSKjAYNwM4fORsn0QdXJ65eTz5fcqHJ7cUJ6dI69QlZx4vU9MAUR0J6xDGK8qifzh7Tzn6x57oJPQE75gdXiLU9wcIOtelVB7JOn8OAVLT6K6G1EU-J0CEemkMykZmEAUvvdnRjYIu8Mn19koMMvVI7aizxxkdQG5hpsMGVHAHlCdaWukbz1S2DL-6OkL1rOUpC6hcgKc?encodeFailures=1&width=619&height=485" class="imagen-central">
+        <img src="img/descarga (6).png" alt="menu icon"  class="imagen-central">
         <div class="inicio-bottom">
             <div class="text-container">
                 <p class="line-text line1">─── Obten un 30% de ───</p>
@@ -75,7 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p class="maintenance-description">Mantenimiento eficiente y personalizado</p>
                 <button id="details-button2"class="details-button2">Ver Planes</button>
                 <div class="more-info-container">
-                    <img src="https://bnz07pap001files.storage.live.com/y4mAaSZQjfF3tlg9qDx_zYEdNC7NfCIfYrtsBO7xCF0LkvZ1fvWwRiwoXXdrjpifH-166G1LEVfebMtTgLgd9ADBm1W9IIDgzdAYpqrXZ3hANVp7vqWJdTHKT4ZhDADdHGg4k6PDR7hRMNZxjc85lEnwQnIL2JxFsGDa62AAp82OeUNLPxzpPDIpPMuxRn_ivk2LKIrR0cr-2pQIGoa1ROa5816nNZUJq-UuVrwoxfN-m0?encodeFailures=1&width=543&height=486" alt="Descripción de la imagen" class="maintenance-image">
+                    
+                    <img src="img/descarga (5).png" alt="Descripción de la imagen" class="maintenance-image">
                     <p class="info-text">Garantiza el rendimiento óptimo de tu sitio web con nuestros planes de mantenimiento personalizados.</p>
                     <p class="small-text2">Compra 4 meses y obten 2 meses GRATIS.</p>
                 </div>
@@ -88,22 +89,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p class="skill-description">Desarrollamos soluciones que no solo cumplen con las expectativas, sino que las superan, asegurando resultados que realmente marcan la diferencia.</p>
                 <div class="skills-grid">
                     <div class="skill-item">
-                        <img src="https://bnz07pap001files.storage.live.com/y4m98Ib6uA16AVLcetJnZN7BhFxCwnE3v408ERmAWCC5fNYQtS4Co42Jm-lyyj-LpducP4xgq4jmdAAF8slBfr9SL_5XIRH9XgDihlfKmQ2jn-ZMmgHX4H1531jzhM5nIsx3EK31iae_HFBZSdTkeH8quIjCsgbBdfMAyxII-0VojL0KGeC1Ji5ytkUnt2s3ZGhagnqjm5Zz2jt979bBxuwOfC8cNilLaNRU7RC-ovmRKc?encodeFailures=1&width=575&height=397" alt="Skill 1">
+                        <img src="img/Captura de pantalla 2024-04-25 145850.png" alt="Skill 1">
                         <h3 class="titleSkills">Tu Proyecto, Nuestra Prioridad</h3>
                         <p class="pSkills">Soluciones web de alta calidad en tiempos récord, asegurando que tu negocio brille sin demoras.</p>
                     </div>
                     <div class="skill-item">
-                        <img src="https://bnz07pap001files.storage.live.com/y4mptM8W1bxI4v8y_sKSSYlfYV54p2xWkqxlDJg6MtfbImB-ALBGftavPdRQgm6upd71NeZvCWWnZpez9Z-sdfP3ijZr4IGw6zPQ8t_R7m7fwW1FINKYNt-YeVCe2QOhwEOR6-0ORRFet-oRkvDIHlBe72wbHsu6DK9mxNRtcypUZJ_j7QPNdLeVJosE0bxgKppl9lbRactBO0Iflntqc0HItjiI3F16AuaK6dirS2Bil0?encodeFailures=1&width=428&height=432" alt="Skill 2">
+                        <img src="img/Captura de pantalla 2024-04-18 201209.png" alt="Skill 2">
                         <h3 class="titleSkills">SEO y Marketing</h3>
                         <p class="pSkills">Optimizamos tu presencia online para maximizar tu alcance.</p>
                     </div>
                     <div class="skill-item">
-                        <img src="https://bnz07pap001files.storage.live.com/y4mMbP5CEkGqNLR8sNqOZ7hDAX2hCdRPy75qkfo66Sp-1A5I6EseccosnNpLf6FB_9Z7mIrCoSFm33lYYZxWQ9CGwGaWBIxObxuZB862IHkRVXQcn4DzM7d2Oc8lSiJpp9-uHlAEibqQ2ASnazANQvs6eTsV9DM5ySQPF8ea-7aHmO9CGAkUwVMqlOcQTE19M5fIq6z9VHUDJ7JjzUyPCArVSAhEIB5c-NuhPh55vwttLc?encodeFailures=1&width=542&height=610" alt="Skill 3">
+                        <img src="img/Captura de pantalla 2024-04-18 201355.png" alt="Skill 3">
                         <h3 class="titleSkills">E-commerce</h3>
                         <p class="pSkills">Plataformas robustas para que vendas en línea sin complicaciones.</p>
                     </div>
                     <div class="skill-item">
-                        <img src="https://bnz07pap001files.storage.live.com/y4mpcGnTfHb6bkNoHMbBis2suMu14bf3v_1F3V_tpntrtk8SnwA3oI7LEksAaFGcEZ23A45d-5E9WdLb2J2o1rAdFcLNrOp0XImgXFdnRO5CcTtd8AnwyGlGiI3VK3G00i1MiSeznNRBuCOgt6mm0EjG18R9i3Bw3APQZfac9-6ckUelOdWq0B2jT94BkKOEjJsuj7gQK2NxZo1VMRvGRdA_7Vr-BIFRWx3mjzTGJcafSI?encodeFailures=1&width=541&height=583" alt="Skill 4">
+                        <img src="img/Captura de pantalla 2024-04-18 201545.png" alt="Skill 4">
                         <h3 class="titleSkills">Soporte Técnico</h3>
                         <p class="pSkills">Mantenimiento y soporte técnico que mantiene tu sitio al 100%.</p>
                     </div>

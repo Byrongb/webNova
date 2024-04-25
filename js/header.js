@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
     headerContainer.innerHTML = `
     <header class="header" >
         <div class="menu-icon">
-            <img src="https://bnz07pap001files.storage.live.com/y4mdjd2kzFJAM_YROVhQLlXjppbxwmHa1he8HccbLmZ7QiTEKat3ROAfqM10xjzAeDXQ_UwnRwELyxtZw3w1JaOqkHZJfle1_7sdUOtD1hwJ05E_Y7xm_EK6gUKBN4GY4Gdzkj5n4oeLD4h0UTc5fz1K0bxHn3MCLOBBuQOWmAJnuyfF2FOPDuzPIF3i5b1BhvK-lvEDfeOPceAOCzNJ83GgbT_daE27NW6YmRxReboN_w?encodeFailures=1&width=476&height=375" alt="Menu Icon" id="menu-toggle"> <!-- Espacio para imagen del menú -->
+        <img src="img/Captura_de_pantalla_2024-04-10_193118-removebg-preview.png" alt="menu icon"  id="menu-toggle">
         </div>
         <div id="logo-center" class="logo-center">
-            <img src="https://bnz07pap001files.storage.live.com/y4mew0wsE7u1_3A5teCjarUgWdETw_9VgiYytQurq1jjv3D7wUPkv9Tlr6Hf0Atd3SwH7OZViNb5f4RTQmMC8nocJDp5L43MezSmpOMMpLauNnLP9VxhRHILjaDztgg4buA70mF-nhMyde1uwAyZU3gU8lwqhRPbdfuuwKaw_LJK55zwG6xTWp9wUhEIkuxWfmzZ9QpmbHY4Ox_7T19qczMoGTcCztyySJe8gxNvD9UahI?encodeFailures=1&width=440&height=432" alt="WebNova Logo" class="logo">
+            <img src="img/image-removebg-preview (2).png" alt="menu icon"  class="logo">
         </div>
         
     </header>
@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
             </a>
             <a id="servicios">Servicios <span class="arrow2">&#9662;</span>
                 <div class="submenu2">
-                    <a href="/mantenimiento.html">Mantenimiento Web</a>
-                    <a href="/trabajoPersonalizado.html">Trabajo Personalizado</a>
+                    <a href="mantenimiento.html">Mantenimiento Web</a>
+                    <a href="trabajoPersonalizado.html">Trabajo Personalizado</a>
                 </div>
             </a>
             <a href="./portafolio.html">Portafolio</a>
