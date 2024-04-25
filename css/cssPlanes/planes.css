@@ -119,6 +119,10 @@
     margin-bottom: 0px;
 }
 
+.advantage p {
+    font-size: 1.1rem;
+}
+
 .title {
     text-align: center;
     font-size: 3rem;
