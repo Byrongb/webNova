@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="more-info-container">
             <h3>Elije Tu Estilo con WebNova</h3>
             <p class="info-text">Selecciona cualquier plantilla de nuestro extenso portafolio y personalízala para que se adapte perfectamente a las necesidades de tu negocio. Con WebNova, transformarás tu presencia en línea utilizando diseños probados que destacan por su eficacia y atractivo visual.</p>
-            <button id="verPortafolio" class="see-plans">VER PORTAFOLIO</button>
+            <button onclick="window.location.href='/portafolio.html'" id="verPortafolio" class="see-plans">VER PORTAFOLIO</button>
             <p class="small-text">Explora nuestras opciones para encontrar el diseño que más se alinea con tu visión empresarial. Personalización a tu medida.</p>
         </div>
 
