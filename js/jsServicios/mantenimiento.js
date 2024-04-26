@@ -123,9 +123,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <button onclick="window.location.href='contacto.html'" class="contact-button">OBTENER</button>
         </div>
         <div class="plan-container">
-            ${createPlan('Básico', 'Ideal para sitios web pequeños que requieren actualizaciones menores y mantenimiento regular.', '$50/mes')}
-            ${createPlan('Avanzado', 'Para sitios con necesidades moderadas de actualización y optimización de rendimiento.', '$100/mes')}
-            ${createPlan('Premium', 'Cobertura completa con actualizaciones frecuentes, respaldos y seguridad avanzada.', '$150/mes')}
+            ${createPlan('Básico', 'Ideal para sitios web pequeños que requieren actualizaciones menores y mantenimiento regular.', '$85/mes')}
+            ${createPlan('Avanzado', 'Para sitios con necesidades moderadas de actualización y optimización de rendimiento.', '$150/mes')}
+            ${createPlan('Premium', 'Cobertura completa con actualizaciones frecuentes, respaldos y seguridad avanzada.', '$250/mes')}
         </div>
     `;
 
