@@ -133,3 +133,39 @@
 .footer-socialR .social-linkR:hover {
     text-decoration: underline;
 }
+
+
+.footerM {
+    background-color: #f0f4f0;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.2);
+}
+
+
+.footer-infoM p {
+    margin: 5px 0;
+}
+
+.footer-linksM,
+.footer-socialM {
+    margin: 10px 0;
+}
+
+.footer-linksM a,
+.footer-socialM .social-linkM {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-linksM a:hover,
+.footer-socialM .social-linkM:hover {
+    text-decoration: underline;
+}

@@ -10,10 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <div id="logo-center" class="logo-center">
             <img src="img/image-removebg-preview (2).png" alt="menu icon"  class="logo">
         </div>
-        
     </header>
     <div id="side-menu" class="side-menu">
-        <img src="https://bnz07pap001files.storage.live.com/y4mdjd2kzFJAM_YROVhQLlXjppbxwmHa1he8HccbLmZ7QiTEKat3ROAfqM10xjzAeDXQ_UwnRwELyxtZw3w1JaOqkHZJfle1_7sdUOtD1hwJ05E_Y7xm_EK6gUKBN4GY4Gdzkj5n4oeLD4h0UTc5fz1K0bxHn3MCLOBBuQOWmAJnuyfF2FOPDuzPIF3i5b1BhvK-lvEDfeOPceAOCzNJ83GgbT_daE27NW6YmRxReboN_w?encodeFailures=1&width=476&height=375" alt="Close Menu" id="menu-close" class="menu-close">
+        <img src="img/Captura_de_pantalla_2024-04-10_193118-removebg-preview.png" alt="Close Menu" id="menu-close" class="menu-close">
         <div class="menu-item">
             <a href="index.html">Inicio </a>
             <a id="see-plans">Planes <span class="arrow">&#9662;</span>

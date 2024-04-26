@@ -30,6 +30,16 @@ body {
 }
 
 
+.headerM {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background: #f0f4f0;
+    border: 1px solid #ddd;
+}
+
+
 .menu-icon, .logo-center, .buy-now {
     text-align: right;
     padding-right: 10px;

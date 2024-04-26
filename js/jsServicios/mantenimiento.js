@@ -3,14 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const body = document.body;
 
     headerContainer.innerHTML = `
-    <header class="headerR" >
+    <header class="headerM" >
         <div class="menu-icon">
-            <img src="img/Captura_de_pantalla_2024-04-10_193118-removebg-preview.png" alt="Menu Icon" id="menu-toggle"> <!-- Espacio para imagen del menú -->
+        <img src="img/icon menu mantenimiento.png" alt="menu icon"  id="menu-toggle">
         </div>
         <div id="logo-center" class="logo-center">
-            <img src="img/image-removebg-preview (2).png" alt="WebNova Logo" class="logo">
+            <img src="img/logo mantenimiento.png" alt="menu icon"  class="logo">
         </div>
-        
     </header>
     <div id="side-menu" class="side-menu">
         <img src="img/Captura_de_pantalla_2024-04-10_193118-removebg-preview.png" alt="Close Menu" id="menu-close" class="menu-close">
@@ -26,15 +25,15 @@ document.addEventListener('DOMContentLoaded', function() {
             <a id="servicios">Servicios <span class="arrow2">&#9662;</span>
                 <div class="submenu2">
                     <a href="mantenimiento.html">Mantenimiento Web</a>
-                    <a href="#">Trabajo Personalizado</a>
+                    <a href="trabajoPersonalizado.html">Trabajo Personalizado</a>
                 </div>
             </a>
             <a href="./portafolio.html">Portafolio</a>
             <a id="politicas1">Políticas <span class="arrow3">&#9662;</span>                                                                                                                               
                  <div class="submenu3">
-                    <a href="#">Garantía</a>
-                    <a href="#">Facturación</a>
-                    <a href="#">Servicio</a>
+                    <a href="politicasGarantias.html">Garantía</a>
+                    <a href="politicasFacturacion.html">Facturación</a>
+                    <a href="politicasServicio.html">Servicio</a>
                 </div>
             </a>
             <a href="./contacto.html">Contacto</a>
@@ -117,37 +116,29 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('content'); // Asegúrate de que este ID exista en tu HTML
 
     container.innerHTML = `
-        <div class="intro-section">
-            <h1 class="title">Revitaliza Tu Sitio Web con WebNova</h1>
-            <p class="description">Transforma tu presencia online con nuestras soluciones innovadoras.</p>
-            <img src="img/y4m_Gsrphhrot--JvWDoLJkWFF912DDFqo0JiUdzSKMHjn6hHTPvJm8Ht6putWoHXs5eq4WJqDIQh2HkfZ7FL_7ebNoM5DNFmX68-peu3sF0Jt8WPGY5OxH9jHHKdS12xDClV92l7hjNEFbEnD9Rt1PUpqztoixIl08R4ojqT75u86_28YGqzOEHU39oW963GEn5lwGQ.png" alt="Motivational Image" class="feature-image">
+        <div class="maintenance-intro">
+            <img src="img/portada mantenimiento.png" alt="Mantenimiento Web" class="maintenance-image">
+            <h1 class="title">Planes de Mantenimiento</h1>
+            <p class="description">Ofrecemos planes de mantenimiento diseñados para mantener tu sitio web actualizado, seguro y funcionando sin problemas. Escoge el que mejor se adapte a tus necesidades.</p>
+            <button onclick="window.location.href='contacto.html'" class="contact-button">OBTENER</button>
         </div>
-        <div class="plans-container">
-            ${createPlan('Renovación Básica', 'Refresca tu diseño actual con mejoras visuales y funcionales.', '$899', 'Incluye rediseño básico, optimización de carga y actualización de contenido.', ['Rediseño de la interfaz', 'Optimización SEO básica', 'Soporte técnico'])}
-            ${createPlan('Renovación Avanzada', 'Amplía las capacidades de tu sitio con características avanzadas.', '$1299', 'Expande tu funcionalidad y mejora la interacción del usuario.', ['Integración de e-commerce', 'Optimización SEO avanzada', 'Analytics mejorado'])}
-            ${createPlan('Transformación Total', 'Un cambio completo que redefine tu presencia online.', '$1999', 'Reconstrucción total desde cero con las últimas tecnologías.', ['Diseño personalizado', 'Estrategias de marketing digital', 'Integraciones complejas'])}
+        <div class="plan-container">
+            ${createPlan('Básico', 'Ideal para sitios web pequeños que requieren actualizaciones menores y mantenimiento regular.', '$50/mes')}
+            ${createPlan('Avanzado', 'Para sitios con necesidades moderadas de actualización y optimización de rendimiento.', '$100/mes')}
+            ${createPlan('Premium', 'Cobertura completa con actualizaciones frecuentes, respaldos y seguridad avanzada.', '$150/mes')}
         </div>
     `;
 
-    function createPlan(title, summary, price, smallText, features) {
-        const featureList = features.map(feature => `<li><span class="check-icon">&#10003;</span> ${feature}</li>`).join('');
+    function createPlan(name, description, price) {
         return `
             <div class="plan">
-                <h2 class="plan-title">${title}</h2>
-                <p class="plan-summary">${summary}</p>
+                <h2 class="plan-title">${name}</h2>
+                <p class="plan-description">${description}</p>
                 <p class="plan-price">${price}</p>
-                <p class="small-text">${smallText}</p>
-                <ul class="plan-features">${featureList}</ul>
-                <button class="contact-button">Modificar Mi Página</button>
+                <button onclick="window.location.href='contacto.html'" class="contact-button2">OBTENER</button>
             </div>
         `;
     }
-
-    document.querySelectorAll('.contact-button').forEach(button => {
-        button.addEventListener('click', function() {
-            window.location.href = 'contacto.html'; // Asegúrate de que esta URL sea correcta
-        });
-    });
 });
 
 
@@ -155,20 +146,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerContainer = document.getElementById('footer-container'); // Asegúrate de tener este contenedor en tu HTML
 
     footerContainer.innerHTML = `
-    <footer class="footerR">
-        <div class="footer-infoR">
+    <footer class="footerM">
+        <div class="footer-infoM">
             <p>© 2024 WebNova. Todos los derechos reservados.</p>
             <p>Correo: contacto@webnova.com</p>
             <p>Teléfono: +123 456 7890</p>
         </div>
-        <div class="footer-linksR">
+        <div class="footer-linksM">
             <a href="#!">Política de Privacidad</a>
             <a href="#!">Términos de Servicio</a>
         </div>
-        <div class="footer-socialR">
-            <a href="#!" class="social-linkR">Facebook</a>
-            <a href="#!" class="social-linkR">Twitter</a>
-            <a href="#!" class="social-linkR">Instagram</a>
+        <div class="footer-socialM">
+            <a href="#!" class="social-linkM">Facebook</a>
+            <a href="#!" class="social-linkM">Twitter</a>
+            <a href="#!" class="social-linkM">Instagram</a>
         </div>
     </footer>
 `;

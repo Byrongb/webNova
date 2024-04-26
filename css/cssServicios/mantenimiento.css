@@ -1,0 +1,87 @@
+.maintenance-intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.maintenance-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.8rem;
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.contact-button {
+    background-color: #f0f4f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 80%;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #51C739;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.contact-button2 {
+    background-color: #f0f4f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    color: #51C739;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button2:hover {
+    background-color: #0056b3;
+}
+
+.plan-container {
+    display: block;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.plan {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+.plan-title {
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.plan-description {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.plan-price {
+    font-size: 2rem;
+    color: #51C739;
+}
