@@ -1,0 +1,150 @@
+.titles {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.title-container {
+    width: 49%; /* Cada contenedor de título ocupa aproximadamente la mitad del ancho */
+    box-sizing: border-box; /* Incluye padding y border en el cálculo del ancho */
+}
+
+.progress-bar, .progress-bar2 {
+    height: 5px;
+    width: 0%; /* Comienza desde 0% y se anima desde JS */
+    display: none; /* Controlado por JS */
+}
+
+.progress-bar {
+    background-color: blue;
+}
+
+.progress-bar2 {
+    background-color: black;
+}
+
+.titles h3 {
+    margin: 0;
+    padding-bottom: 5px; /* Espacio entre el título y la barra */
+    font-size: 16px; /* Ajuste el tamaño de la fuente según sea necesario para móviles */
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: blue;
+    width: 50%;
+}
+
+.progress-bar2 {
+    height: 4.5px;
+    background-color: blue;
+    width: 50%;
+}
+
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.slide p {
+    font-size: 18px;
+}
+
+.slide button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.slide button:hover {
+    background-color: #0056b3;
+}
+
+.slide-maintenance h1 {
+    color: blue; 
+}
+
+.slide-custom {
+    background-color: lightgrey; 
+}
+
+.maintenance-intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.maintenance-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 16px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.contact-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.plan-container {
+    display: block;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.plan {
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan-title {
+    font-size: 20px;
+    color: #333;
+}
+
+.plan-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.plan-price {
+    font-size: 24px;
+    color: #28a745;
+}

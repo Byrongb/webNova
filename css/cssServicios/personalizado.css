@@ -22,7 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20px;
+    margin: 20px 0px 20px 0px;
 }
 
 .service-div {
@@ -33,7 +33,7 @@
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     padding: 15px;
     margin: 10px;
-    width: 30%; /* o ajusta según tu diseño */
+    width: 35%; /* o ajusta según tu diseño */
     height: auto; /* Asegúrate de tener una altura fija o mínima para mantener la uniformidad */
     position: relative;
 }
@@ -46,6 +46,7 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 1rem;
 }
 
 .service-div button:hover {
@@ -55,12 +56,14 @@
 
 .service-div h3 {
     color: #333333;
+    margin: 10px auto;
+    font-size: 1.3rem;
 }
 
 .service-div p {
-    font-size: 14px;
+    font-size: 1.1rem;
     color: #666666;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 2px;
 }
 
 
