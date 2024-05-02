@@ -16,14 +16,14 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="carousel">
             <div class="slide-maintenance">
                 <div class="maintenance-intro">
-                <img src="/img/Captura de pantalla 2024-05-01 190659.png" alt="Descripción de la imagen" class="background-image">
+                <img src="img/Captura de pantalla 2024-05-01 190659.png" class="background-image">
                     <button onclick="window.location.href='mantenimiento.html'" class="contact-button">Obtener</button>
                 </div>
             </div>
         </div>
             <div class="slide-custom" style="display: none;">
                 <div class="maintenance-intro2">
-                <img src="/img/Captura de pantalla 2024-05-01 205522.png" alt="Descripción de la imagen" class="background-image">
+                <img src="img/Captura de pantalla 2024-05-01 205522.png" class="background-image">
                     <button onclick="window.location.href='trabajoPersonalizado.html'" class="contact-button2">Obtener</button>
                 </div>
             </div>
