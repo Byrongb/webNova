@@ -91,7 +91,7 @@
 .maintenance-intro {
     text-align: center;
     padding: 20px;
-    background-image: url("/img/Captura de pantalla 2024-05-01 190659.png");
+    background-image: url("img/Captura de pantalla 2024-05-01 190659.png");
     width: 90%;
     height: 22rem;
     background-size: cover; /* Cubre el área completa del div sin deformarse */
@@ -104,7 +104,7 @@
 .maintenance-intro2 {
     text-align: center;
     padding: 20px;
-    background-image: url("/img/Captura de pantalla 2024-05-01 205522.png");
+    background-image: url("img/Captura de pantalla 2024-05-01 205522.png");
     width: 90%;
     height: 22rem;
     background-size: cover; /* Cubre el área completa del div sin deformarse */
