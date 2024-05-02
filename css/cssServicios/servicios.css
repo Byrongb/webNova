@@ -1,3 +1,4 @@
+
 .titles {
     margin-top: 2%;
     margin-left: 5%;
@@ -35,13 +36,13 @@
 
 .progress-bar {
     height: 5px;
-    background-color: blue;
+    background: linear-gradient(to bottom, #1F9FDA, #1F9FDA, #304A6E);
     width: 50%;
 }
 
 .progress-bar2 {
     height: 4.5px;
-    background-color: blue;
+    background: linear-gradient(to bottom, #1F9FDA, #1F9FDA, #304A6E);
     width: 50%;
 }
 
@@ -49,7 +50,7 @@
 .carousel {
     position: relative;
     overflow: hidden;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
 }
 
 .slide {
@@ -57,6 +58,8 @@
     position: absolute;
     width: 100%;
     text-align: center;
+    background: ghostwhite;
+
 }
 
 .slide p {
@@ -82,16 +85,37 @@
 
 .slide-custom {
     background-color: lightgrey; 
+    margin-top: -5%;
 }
 
 .maintenance-intro {
     text-align: center;
     padding: 20px;
+    background-image: url("/img/Captura de pantalla 2024-05-01 190659.png");
+    width: 90%;
+    height: 22rem;
+    background-size: cover; /* Cubre el área completa del div sin deformarse */
+    background-position: center; /* Centra la imagen en el div */
+    background-repeat: no-repeat;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 1.7rem;
+}
+
+.maintenance-intro2 {
+    text-align: center;
+    padding: 20px;
+    background-image: url("/img/Captura de pantalla 2024-05-01 205522.png");
+    width: 90%;
+    height: 22rem;
+    background-size: cover; /* Cubre el área completa del div sin deformarse */
+    background-position: center; /* Centra la imagen en el div */
+    background-repeat: no-repeat;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 3rem;
 }
 
 .maintenance-image {
-    width: 100%;
-    max-width: 600px;
+    width: 10%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -109,17 +133,37 @@
 }
 
 .contact-button {
-    background-color: #007bff;
-    color: white;
+    background-color: #ffffff;
+    color: black;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 7rem;
+    margin-right: 50%;
+    font-size: 1rem;
+    border-radius: 8px;
 }
 
 .contact-button:hover {
     background-color: #0056b3;
 }
+
+.contact-button2 {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-top: 20.2rem;
+    margin-right: 0;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.contact-button:hover2 {
+    background-color: #0056b3;
+}
+
 
 .plan-container {
     display: block;
@@ -147,4 +191,17 @@
 .plan-price {
     font-size: 24px;
     color: #28a745;
+}
+
+.info-titleS {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #304A6E;
+    margin: 0 10% 0%;
+}
+
+.pSkills{
+    font-size: 1.2rem;
+    margin-top: 1rem;
 }

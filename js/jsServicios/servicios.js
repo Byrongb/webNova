@@ -16,14 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="carousel">
             <div class="slide-maintenance">
                 <div class="maintenance-intro">
-                    <img src="path_to_your_maintenance_image.jpg" alt="Mantenimiento Web" class="maintenance-image">
-                    <h1 class="title">Planes de Mantenimiento</h1>
-                    <p class="description">Ofrecemos planes de mantenimiento diseñados para mantener tu sitio web actualizado, seguro y funcionando sin problemas. Escoge el que mejor se adapte a tus necesidades.</p>
-                    <button onclick="window.location.href='contacto.html'" class="contact-button">Obtener</button>
+                    <button onclick="window.location.href='mantenimiento.html'" class="contact-button">Obtener</button>
                 </div>
             </div>
-            <div class="slide-custom" style="display: none;">Hola Trabajo Personalizado</div>
         </div>
+            <div class="slide-custom" style="display: none;">
+                <div class="maintenance-intro2">
+                    <button onclick="window.location.href='trabajoPersonalizado.html'" class="contact-button2">Obtener</button>
+                </div>
+            </div>
+    </div>
     `;
 
 
@@ -72,3 +74,61 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+    document.addEventListener('DOMContentLoaded', function() {
+    const ContainerEnvudo = document.getElementById('content2'); // Asegúrate de tener este contenedor en tu HTML
+
+    ContainerEnvudo.innerHTML = `
+    <h2 class="info-titleS">Obten una página web y mantenimiento de ella, así de fácil</h2>
+    <div class="skills-grid">
+        <div class="skill-item">
+            <img src="img/Captura de pantalla 2024-04-25 145850.png" alt="Skill 1">
+            <h3 class="titleSkills">1. Contáctanos</h3>
+            <p class="pSkills">Inicia tu proyecto con solo hacernos una llamada o enviándonos un correo. Estamos listos para atenderte y discutir tus necesidades.</p>
+        </div>
+        <div class="skill-item">
+            <img src="img/Captura de pantalla 2024-04-18 201209.png" alt="Skill 2">
+            <h3 class="titleSkills">2. Muestra tu diseño o elige una plantilla</h3>
+            <p class="pSkills">¿Tienes una visión específica? Muéstranos tu diseño o selecciona una de nuestras plantillas personalizables. Nuestro portafolio está diseñado para ofrecerte variedad y flexibilidad.</p>
+        </div>
+        <div class="skill-item">
+            <img src="img/Captura de pantalla 2024-04-18 201355.png" alt="Skill 3">
+            <h3 class="titleSkills">3. Tiempo de Desarrollo</h3>
+            <p class="pSkills">Relájate mientras nosotros hacemos la magia. El proceso de creación puede tomar de 1 a 3 semanas, dependiendo de la complejidad del proyecto. Te mantendremos informado en cada paso.</p>
+        </div>
+        <div class="skill-item">
+            <img src="img/Captura de pantalla 2024-04-18 201545.png" alt="Skill 4">
+            <h3 class="titleSkills">4. Aprobación del Cliente</h3>
+            <p class="pSkills">Antes de finalizar, tu opinión es crucial. Revisaremos juntos el proyecto final para asegurarnos de que todo está perfecto según tus expectativas.</p>
+        </div>
+        <div class="skill-item">
+            <img src="img/Captura de pantalla 2024-04-18 201545.png" alt="Skill 4">
+            <h3 class="titleSkills">5. ¡Disfruta tu nuevo sitio web!</h3>
+            <p class="pSkills">Una vez aprobado, tu nuevo sitio estará listo para brillar en la web. ¡Disfruta de los beneficios de tener una presencia digital más fuerte y más atractiva!</p>
+        </div>
+        </div>
+    </div>
+`;
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const footerContainer = document.getElementById('footer-container'); // Asegúrate de tener este contenedor en tu HTML
+
+    footerContainer.innerHTML = `
+    <footer class="footerE">
+        <div class="footer-infoE">
+            <p>© 2024 WebNova. Todos los derechos reservados.</p>
+            <p>Correo: contacto@webnova.com</p>
+            <p>Teléfono: +123 456 7890</p>
+        </div>
+        <div class="footer-linksE">
+            <a href="#!">Política de Privacidad</a>
+            <a href="#!">Términos de Servicio</a>
+        </div>
+        <div class="footer-socialE">
+            <a href="#!" class="social-linkE">Facebook</a>
+            <a href="#!" class="social-linkE">Twitter</a>
+            <a href="#!" class="social-linkE">Instagram</a>
+        </div>
+    </footer>
+`;
+});
