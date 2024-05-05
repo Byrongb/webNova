@@ -216,7 +216,114 @@
     margin: 0 10% 0%;
 }
 
+.info-titleC {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #304A6E;
+    margin: 5% 10% 0%;
+}
+
+.info-titleC h1 {
+    margin-top: 5rem;
+}
+
 .pSkills{
     font-size: 1.2rem;
     margin-top: 1rem;
+}
+
+#content3{
+    background-color: #cad2db;
+    height: 31.5rem;
+    padding: 5px;
+    margin: 8% 0 5% 0%;
+}
+
+.container-carousel {
+    position: relative;
+    width: 90%;
+    height: 20rem;
+    margin: 20px auto;
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
+  
+}
+
+.carruseles {
+    width: 1000%;
+    height: 100%;
+    display: flex;
+
+}
+
+.slider-section {
+    width: calc(100% / 10);
+    height: 100%;
+}
+
+.slider-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn-left,
+.btn-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0,-50%);
+    transition: .5s ease;
+    user-select: none;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+    background-color: #333333d4;
+    color: #fff;
+}
+
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
+}
+
+.contentCarousel{
+    margin: 10% 10% 10% 15%;;
+}
+
+.rating{
+    font-size: 18px;
+    color: #ffc107;
+}
+
+.des{
+    margin-top: 2%;
+}
+
+.contentCarousel button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    color: #ffffff;
+    margin-top: 5%;
+}
+
+.name {
+    font-size: 2rem;
 }
