@@ -1,0 +1,102 @@
+.contact-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contact-box {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 45%;
+    text-align: center;
+}
+
+.email-form h2, .contact-box h2 {
+    color: #333;
+}
+
+.email-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mail {
+    font-size: 0.7rem;
+}
+.email-form input, .email-form textarea {
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.email-form button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-section, .feedback-section {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contact-section h1, .feedback-section h2 {
+    color: #333;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section li {
+    margin-bottom: 10px;
+}
+
+.rating {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.star {
+    font-size: 25px;
+    color: #e4e5e9;
+}
+
+.feedback-section textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.feedback-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+.feedback-section button:hover {
+    background-color: #0056b3;
+}
