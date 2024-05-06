@@ -29,12 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </a>
             <a href="./portafolio.html">Portafolio</a>
-            <a id="politicas1">Políticas <span class="arrow3">&#9662;</span>                                                                                                                               
-                 <div class="submenu3">
-                    <a href="politicasGarantias.html">Garantía</a>
-                    <a href="politicasFacturacion.html">Facturación</a>
-                    <a href="politicasServicio.html">Servicio</a>
-                </div>
+            <a id="politicas1">Políticas <span class="arrow3"></span>                                                                                                                               
+             
             </a>
             <a href="./contacto.html">Contacto</a>
         </div>

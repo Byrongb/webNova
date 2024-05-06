@@ -199,6 +199,22 @@ document.addEventListener('DOMContentLoaded', function() {
                     <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
                 </div>
             </section>
+            <section class="slider-section">
+                <div class="contentCarousel">
+                    <div class="name">John <br> Morgan</div>
+                    <div class="rating">★★★★★</div>
+                    <div class="des">"This is an incredible testimony that speaks about the quality and professionalism of the service received. The attention to detail and efficiency of the team was exceptional."</div>
+                    <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
+                </div>
+            </section>
+            <section class="slider-section">
+                <div class="contentCarousel">
+                    <div class="name">John <br> Morgan</div>
+                    <div class="rating">★★★★★</div>
+                    <div class="des">"This is an incredible testimony that speaks about the quality and professionalism of the service received. The attention to detail and efficiency of the team was exceptional."</div>
+                    <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
+                </div>
+            </section>
         </div>
         <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
         <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
@@ -206,53 +222,48 @@ document.addEventListener('DOMContentLoaded', function() {
 `;
 
 const btnLeft = document.querySelector(".btn-left"),
-      btnRight = document.querySelector(".btn-right"),
-      slider = document.querySelector("#slider"),
-      sliderSection = document.querySelectorAll(".slider-section");
-
+    btnRight = document.querySelector(".btn-right"),
+    slider = document.querySelector("#slider"),
+    sliderSection = document.querySelectorAll(".slider-section");
+    let currentIndex = 0;
 
 btnLeft.addEventListener("click", e => moveToLeft())
 btnRight.addEventListener("click", e => moveToRight())
 
 setInterval(() => {
     moveToRight()
-}, 3000);
-
+    currentIndex = (currentIndex + 1) % sliderSections.length; // Incrementa el índice, vuelve a 0 al final
+    slider.style.transform = `translateX(-${currentIndex * widthPercent}%)`; // Mueve el carrusel
+    slider.style.transition = "transform 0.6s ease-out"; // Suaviza la transición
+}, 3000); // Cambia cada 3 segundos
 
 let operacion = 0,
     counter = 0,
     widthImg = 100 / sliderSection.length;
 
-function moveToRight() {
-    if (counter >= sliderSection.length-1) {
-        counter = 0;
-        operacion = 0;
-        slider.style.transform = `translate(-${operacion}%)`;
-        slider.style.transition = "none";
-        return;
-    } 
-    counter++;
-    operacion = operacion + widthImg;
-    slider.style.transform = `translate(-${operacion}%)`;
-    slider.style.transition = "all ease .6s"
+    function moveToRight() {
+        if (counter >= sliderSection.length - 1) {
+            counter = 0;
+            operacion = 0;
+        } else {
+            counter++;
+            operacion += widthImg;
+        }
+        slider.style.transform = `translateX(-${operacion}%)`;
+        slider.style.transition = "transform 0.8s ease";
+    }
     
-}  
-
-function moveToLeft() {
-    counter--;
-    if (counter < 0 ) {
-        counter = sliderSection.length-1;
-        operacion = widthImg * (sliderSection.length-1)
-        slider.style.transform = `translate(-${operacion}%)`;
-        slider.style.transition = "none";
-        return;
-    } 
-    operacion = operacion - widthImg;
-    slider.style.transform = `translate(-${operacion}%)`;
-    slider.style.transition = "all ease .6s"
-    
-    
-}   
+    function moveToLeft() {
+        if (counter <= 0) {
+            counter = sliderSection.length - 1;
+            operacion = widthImg * (sliderSection.length - 1);
+        } else {
+            counter--;
+            operacion -= widthImg;
+        }
+        slider.style.transform = `translateX(-${operacion}%)`;
+        slider.style.transition = "transform 0.8s ease";
+    }
 });
 
 document.addEventListener('DOMContentLoaded', function() {

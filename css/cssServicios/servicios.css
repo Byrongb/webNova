@@ -155,7 +155,7 @@
     margin-right: 50%;
     font-size: 1rem;
     border-radius: 8px;
-    z-index: 999;
+    z-index: 2;
 }
 
 .contact-button:hover {
@@ -220,7 +220,7 @@
     text-align: center;
     font-size: 2.2rem;
     margin-bottom: 10px;
-    color: #304A6E;
+    color: #ffffff;
     margin: 5% 10% 0%;
 }
 
@@ -234,7 +234,7 @@
 }
 
 #content3{
-    background-color: #cad2db;
+    background-color: #304A6E;
     height: 31.5rem;
     padding: 5px;
     margin: 8% 0 5% 0%;
@@ -242,7 +242,7 @@
 
 .container-carousel {
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 20rem;
     margin: 20px auto;
     background-color: #e0e0e0;
@@ -253,10 +253,10 @@
 }
 
 .carruseles {
-    width: 1000%;
+    width: 1100%;
     height: 100%;
     display: flex;
-
+    background-color: white;
 }
 
 .slider-section {
@@ -282,7 +282,7 @@
     padding: 5px;
     font-weight: 600;
     cursor: pointer;
-    color: #ffffff81;
+    color: #33303081;
     transform: translate(0,-50%);
     transition: .5s ease;
     user-select: none;
