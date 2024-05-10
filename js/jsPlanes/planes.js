@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <div class="advantages-section">
             <h1 class="title">Descubre las Ventajas de WebNova</h1>
-            ${createAdvantage('Soporte Dedicado', 'Contamos con un equipo de soporte técnico disponible 24/7 para asegurar el funcionamiento óptimo de tu sitio web.', 'img/image-removebg-preview (7).png')}
+            ${createAdvantage('Soporte Dedicado', 'Contamos con un equipo de soporte técnico disponible 24/7 para asegurar el funcionamiento óptimo de tu sitio web.', 'img/soporte.png')}
             ${createAdvantage('Tecnología de Punta', 'Utilizamos las últimas tecnologías para desarrollar sitios web que no solo lucen bien, sino que también son rápidos y seguros.', 'img/image-removebg-preview (8).png')}
             ${createAdvantage('Diseño Personalizado', 'Cada proyecto es único. Desarrollamos diseños personalizados que reflejan la esencia de tu marca.', 'img/image-removebg-preview (12).png')}
         </div>

@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="contact-info">
                 <div class="contact-box">
                     <h2>Teléfono</h2>
-                    <p>+123 456 7890</p>
+                    <p>+1 (206) 556-0771</p>
                 </div>
                 <div class="contact-box">
                     <h2>Correo Electrónico</h2>
@@ -49,4 +49,27 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const footerContainer = document.getElementById('footer-container'); // Asegúrate de tener este contenedor en tu HTML
+
+    footerContainer.innerHTML = `
+    <footer class="footerE">
+        <div class="footer-infoE">
+            <p>© 2024 WebNova. Todos los derechos reservados.</p>
+            <p>Correo: contacto@webnova.com</p>
+            <p>Teléfono: +123 456 7890</p>
+        </div>
+        <div class="footer-linksE">
+            <a href="#!">Política de Privacidad</a>
+            <a href="#!">Términos de Servicio</a>
+        </div>
+        <div class="footer-socialE">
+            <a href="#!" class="social-linkE">Facebook</a>
+            <a href="#!" class="social-linkE">Twitter</a>
+            <a href="#!" class="social-linkE">Instagram</a>
+        </div>
+    </footer>
+`;
 });

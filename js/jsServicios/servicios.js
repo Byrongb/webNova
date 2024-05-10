@@ -14,19 +14,28 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     </div>
         <div class="carousel">
-            <div class="slide-maintenance">
+            <div class="slide-maintenance" style="display: block;">
                 <div class="maintenance-intro">
-                <img src="img/Captura de pantalla 2024-05-01 190659.png" class="background-image">
+                    <img src="img/Captura de pantalla 2024-05-09 184735.png" class="background-image">
+                    <div class="overlay-text">
+                        <h3 class="titlem">MANTENIMIENTO WEB</h3>
+                        <h2 class="titlem2">DESDE $85</h2>
+                    </div>
                     <button onclick="window.location.href='mantenimiento.html'" class="contact-button">Obtener</button>
                 </div>
             </div>
-        </div>
+       
             <div class="slide-custom" style="display: none;">
                 <div class="maintenance-intro2">
-                <img src="img/Captura de pantalla 2024-05-01 205522.png" class="background-image">
+                    <img src="img/Captura de pantalla 2024-05-09 184134.png" class="background-image">
+                    <div class="overlay-text">
+                        <h3 class="titlet">FREELANCER DIGITAL</h3>
+                        <h2 class="titlet2">Desde $45/h</h2>
+                    </div>
                     <button onclick="window.location.href='trabajoPersonalizado.html'" class="contact-button2">Obtener</button>
                 </div>
             </div>
+        </div>
     </div>
     `;
 

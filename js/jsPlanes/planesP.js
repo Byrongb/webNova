@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
             </a>
             <a id="servicios">Servicios <span class="arrow2">&#9662;</span>
                 <div class="submenu2">
-                    <a href="#">Mantenimiento Web</a>
-                    <a href="#">Trabajo Personalizado</a>
+                    <a href="mantenimiento.html">Mantenimiento Web</a>
+                    <a href="trabajoPersonalizado.html">Trabajo Personalizado</a>
                 </div>
             </a>
             <a href="./portafolio.html">Portafolio</a>
@@ -129,7 +129,11 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     function createPlan(title, summary, price, smallText, checklist) {
-        const features = checklist.map(item => `<li><span class="check-icon">&#10003;</span>${item}</li>`).join('');
+        const features = checklist.map(item => `
+        <li>
+            <span class="check-icon" translate="no">&#10003;</span>
+            <span class="translate-text">${item}</span>
+        </li>`).join('');
         return `
             <div class="plan">
                 <h2 class="plan-title">${title}</h2>

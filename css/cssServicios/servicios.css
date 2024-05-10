@@ -79,13 +79,16 @@
     background-color: #0056b3;
 }
 
+.slide-maintenance {
+    padding-top: 2%;
+}
+
 .slide-maintenance h1 {
     color: blue; 
 }
-
 .slide-custom {
     background-color: lightgrey; 
-    margin-top: -5%;
+    margin-top: 0%;
 }
 
 .maintenance-intro {
@@ -111,7 +114,6 @@
     background-position: center; /* Centra la imagen en el div */
     background-repeat: no-repeat;
     border-radius: 0 0 15px 15px;
-    margin-bottom: 3rem;
 }
 
 
@@ -138,6 +140,42 @@
     margin-top: 20px;
 }
 
+.titlem{
+    margin-top: -7%;
+    margin-left: -9%;
+}
+
+.titlem2{
+    margin-top: -6%;
+    font-size: 3rem;
+    margin-left: -25%;
+}
+
+.titlet{
+    margin-top: 12rem;
+    margin-left: 0%;
+}
+
+.titlet2{
+    margin-top: -6%;
+    font-size: 3rem;
+    margin-left: 0%;
+}
+
+
+.overlay-text {
+    position: absolute;
+    top: 11%; /* Ajusta según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white; /* O el color que prefieras */
+    font-size: 24px; /* Ajusta el tamaño según sea necesario */
+    z-index: 10; /* Asegúrate de que esté sobre la imagen */
+    width: 90%;
+}
+
+
+
 .description {
     font-size: 16px;
     margin: 10px auto;
@@ -151,7 +189,7 @@
     border: none;
     padding: 10px 40px;
     cursor: pointer;
-    margin-top: 7rem;
+    margin-top: 6.5rem;
     margin-right: 50%;
     font-size: 1rem;
     border-radius: 8px;
@@ -213,7 +251,7 @@
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #304A6E;
-    margin: 0 10% 0%;
+    margin: 2rem 10% 0%;;
 }
 
 .info-titleC {

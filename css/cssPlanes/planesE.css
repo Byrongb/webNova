@@ -78,3 +78,16 @@
 .contact-button:hover {
     background-color: #0056b3;
 }
+
+.plan-features li{
+    list-style-type: none;
+    margin-left: -2rem;
+    font-size: 1.2rem;
+}
+
+
+ul.plan-features li::before{
+    content: "\2713"; /* Carácter Unicode para la marca de verificación */
+    color: green; /* Color de la viñeta */
+    padding-right: 8px;
+}

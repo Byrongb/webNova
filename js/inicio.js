@@ -3,11 +3,18 @@ document.addEventListener('DOMContentLoaded', function() {
     inicioContainer.className = 'inicio-container';
 
     inicioContainer.innerHTML = `
-        <div class="inicio-top"></div>
-        <img src="img/descarga (6).png" alt="menu icon"  class="imagen-central">
+        <div class="container-inicio">
+            <div class="contact-info">
+                <p class="contact-text lineA1">Agentes listos al</p>
+                <p class="contact-number lineA2">(206) 556 0771</p>
+                <p class="contact-action lineA3">Contáctanos!</p>
+            </div>  
+            <img src="img/image-removebg-preview (7).png" alt="menu icon"  class="imagen-central">
+        </div> 
+
         <div class="inicio-bottom">
             <div class="text-container">
-                <p class="line-text line1">─── Obten un 30% de ───</p>
+                <p class="line-text lineB1">─── Obten un 30% de ───</p>
                 <div class="discount-line">
                     <p class="discount-text">DESCUENTO</p>
                     <div class="price-box">
@@ -21,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p class="line-text line3">en tu página web ahora</p>
             </div>
         </div>
+          
     `;
 
     document.body.appendChild(inicioContainer);
@@ -70,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             case 2:
                 infoContainer.innerHTML = `
-                <h2 class="info-title2">─── Obten desde ───</h2>
+                <h2 class="info-title2">─ Obten desde ─</h2>
                 <div class="price-highlight">$85/mes</div>
                 <p class="maintenance-description">Mantenimiento eficiente y personalizado</p>
                 <button id="details-button2"class="details-button2">Ver Planes</button>
@@ -133,7 +141,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     `;
                     break;
         }
-        
+        document.addEventListener('DOMContentLoaded', function() {
+            var elementos = document.querySelectorAll('.wg-default .wg-drop.country-selector a');
+            elementos.forEach(function(el) {
+                el.style.fontSize = '26px';
+            });
+        });
         inicioContainer.appendChild(infoContainer);
     }
     document.getElementById('verPortafolio').addEventListener('click', function() { window.location.href = 'portafolio.html'; });

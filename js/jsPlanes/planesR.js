@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     function createPlan(title, summary, price, smallText, features) {
-        const featureList = features.map(feature => `<li><span class="check-icon">&#10003;</span> ${feature}</li>`).join('');
+        const featureList = features.map(feature => `<li><span class="check-icon" translate="no">&#10003;</span> ${feature}</li>`).join('');
         return `
             <div class="plan">
                 <h2 class="plan-title">${title}</h2>
